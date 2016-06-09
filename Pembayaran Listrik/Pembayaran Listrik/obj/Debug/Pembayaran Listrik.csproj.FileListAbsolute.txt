@@ -1,0 +1,2 @@
+D:\Pemrograman Framework.net (C#)\Program Windows Form Application Project\Pertemuan 11\Pembayaran Listrik\Pembayaran Listrik\bin\Debug\Pembayaran Listrik.exe.config
+D:\Pemrograman Framework.net (C#)\Program Windows Form Application Project\Pembayaran Listrik\Pembayaran Listrik\bin\Debug\Pembayaran Listrik.exe.config
