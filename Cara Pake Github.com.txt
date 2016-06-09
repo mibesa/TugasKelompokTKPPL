@@ -1,0 +1,15 @@
+1. Buat Folder Baru
+2. klik kanan Forder Baru lalu pilih git bash here
+3. buat repository baru di github.com
+4. git clone http://github.com/mibesa/Nama Folder.git
+5. git clone https://github.com/mibesa/Nama Folder.git
+6. git init
+7. cd NamaFolder
+8. git init
+9. git add .
+10. git commit -m "Text"
+11. git config --global user.email "robertkwan@gmail.com"
+12. git config --global user.name "Robert"
+13. git commit -m "saya"
+14. git push -u untuk pertama kali buat, untuk selanjutanya git push
+15. git push -u origin master
