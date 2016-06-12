@@ -1,0 +1,8 @@
+Tahap Trello :
+1. Buat User Interface Login
+2. Buat User Interface Logout
+3. Buat User Interface Pembayaran
+4. Buat User Interface Hotel
+5. Buat Data Base Scenario
+6. Buat User Interface Pilih Kamar
+7. Buat User Interface Halaman Utama
