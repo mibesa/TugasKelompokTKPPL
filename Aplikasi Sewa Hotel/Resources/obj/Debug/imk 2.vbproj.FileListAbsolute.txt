@@ -1,0 +1,29 @@
+C:\Users\766HI\AppData\Local\Temporary Projects\imk 2\bin\Debug\imk 2.exe.config
+F:\DATA KAMPUS\Tugas_IMK\imk 2\imk 2\bin\Debug\imk 2.exe.config
+F:\DATA KAMPUS\Tugas_IMK\imk 2\imk 2\bin\Debug\imk 2.exe
+F:\DATA KAMPUS\Tugas_IMK\imk 2\imk 2\bin\Debug\imk 2.pdb
+F:\DATA KAMPUS\Tugas_IMK\imk 2\imk 2\bin\Debug\imk 2.xml
+F:\DATA KAMPUS\Tugas_IMK\imk 2\imk 2\obj\Debug\imk_2.Form1.resources
+F:\DATA KAMPUS\Tugas_IMK\imk 2\imk 2\obj\Debug\imk_2.Form2.resources
+F:\DATA KAMPUS\Tugas_IMK\imk 2\imk 2\obj\Debug\imk_2.Form3.resources
+F:\DATA KAMPUS\Tugas_IMK\imk 2\imk 2\obj\Debug\imk_2.Form4.resources
+F:\DATA KAMPUS\Tugas_IMK\imk 2\imk 2\obj\Debug\imk_2.Form5.resources
+F:\DATA KAMPUS\Tugas_IMK\imk 2\imk 2\obj\Debug\imk_2.Resources.resources
+F:\DATA KAMPUS\Tugas_IMK\imk 2\imk 2\obj\Debug\imk 2.vbproj.GenerateResource.Cache
+F:\DATA KAMPUS\Tugas_IMK\imk 2\imk 2\obj\Debug\imk 2.exe
+F:\DATA KAMPUS\Tugas_IMK\imk 2\imk 2\obj\Debug\imk 2.xml
+F:\DATA KAMPUS\Tugas_IMK\imk 2\imk 2\obj\Debug\imk 2.pdb
+D:\semester III\IMK\imk 2\imk 2\bin\Debug\imk 2.exe.config
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk 2.exe
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk 2.xml
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk 2.pdb
+D:\semester III\IMK\imk 2\imk 2\bin\Debug\imk 2.exe
+D:\semester III\IMK\imk 2\imk 2\bin\Debug\imk 2.pdb
+D:\semester III\IMK\imk 2\imk 2\bin\Debug\imk 2.xml
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk_2.Form1.resources
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk_2.Form2.resources
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk_2.Form3.resources
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk_2.Form4.resources
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk_2.Form5.resources
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk_2.Resources.resources
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk 2.vbproj.GenerateResource.Cache

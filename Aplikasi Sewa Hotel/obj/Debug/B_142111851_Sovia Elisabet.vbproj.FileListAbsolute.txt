@@ -1,0 +1,36 @@
+D:\semester III\IMK\imk 2\imk 2\bin\Debug\imk 2.exe.config
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk 2.exe
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk 2.xml
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk 2.pdb
+D:\semester III\IMK\imk 2\imk 2\bin\Debug\imk 2.exe
+D:\semester III\IMK\imk 2\imk 2\bin\Debug\imk 2.pdb
+D:\semester III\IMK\imk 2\imk 2\bin\Debug\imk 2.xml
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk_2.Form1.resources
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk_2.Form2.resources
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk_2.Form3.resources
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk_2.Form4.resources
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk_2.Form5.resources
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\imk_2.Resources.resources
+D:\semester III\IMK\imk 2\imk 2\obj\Debug\B_142111851_Sovia Elisabet.vbproj.GenerateResource.Cache
+D:\ADOLA\TKPPL\imk 2\imk 2\bin\Debug\imk 2.exe.config
+D:\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\imk 2.exe
+D:\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\imk 2.xml
+D:\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\imk 2.pdb
+D:\ADOLA\TKPPL\imk 2\imk 2\bin\Debug\imk 2.exe
+D:\ADOLA\TKPPL\imk 2\imk 2\bin\Debug\imk 2.pdb
+D:\ADOLA\TKPPL\imk 2\imk 2\bin\Debug\imk 2.xml
+D:\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\imk_2.Form1.resources
+D:\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\imk_2.Form2.resources
+D:\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\imk_2.Form3.resources
+D:\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\imk_2.Form4.resources
+D:\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\imk_2.Form5.resources
+D:\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\imk_2.Resources.resources
+D:\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\B_142111851_Sovia Elisabet.vbproj.GenerateResource.Cache
+D:\ADOLA2\ADOLA\TKPPL\imk 2\imk 2\bin\Debug\imk 2.exe.config
+D:\ADOLA2\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\imk 2.exe
+D:\ADOLA2\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\imk 2.xml
+D:\ADOLA2\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\imk 2.pdb
+D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\bin\Debug\imk 2.exe.config
+D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk 2.exe
+D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk 2.xml
+D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk 2.pdb
