@@ -32,4 +32,12 @@
     Private Sub Button43_Click(sender As Object, e As EventArgs) Handles Button43.Click
 
     End Sub
+
+    Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter
+
+    End Sub
+
+    Private Sub GroupBox2_Enter(sender As Object, e As EventArgs) Handles GroupBox2.Enter
+
+    End Sub
 End Class

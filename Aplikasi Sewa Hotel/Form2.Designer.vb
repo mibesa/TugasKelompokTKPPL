@@ -102,7 +102,7 @@ Partial Class Form2
         Me.GroupBox3.Size = New System.Drawing.Size(180, 352)
         Me.GroupBox3.TabIndex = 26
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "kamar Spesial"
+        Me.GroupBox3.Text = "Kamar Spesial"
         '
         'LinkLabel2
         '

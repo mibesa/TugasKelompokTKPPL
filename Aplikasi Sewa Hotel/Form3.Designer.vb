@@ -101,7 +101,7 @@ Partial Class Form3
         Me.GroupBox3.Size = New System.Drawing.Size(457, 135)
         Me.GroupBox3.TabIndex = 4
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "GroupBox3"
+        Me.GroupBox3.Text = "Kamar Khusus"
         '
         'Button46
         '
@@ -286,7 +286,7 @@ Partial Class Form3
         Me.GroupBox2.Size = New System.Drawing.Size(459, 135)
         Me.GroupBox2.TabIndex = 3
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "GroupBox2"
+        Me.GroupBox2.Text = "Kamar Premium"
         '
         'Button31
         '
@@ -471,7 +471,7 @@ Partial Class Form3
         Me.GroupBox1.Size = New System.Drawing.Size(457, 135)
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
+        Me.GroupBox1.Text = "Kamar Ekonomi"
         '
         'Button15
         '

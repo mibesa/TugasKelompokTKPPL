@@ -26,6 +26,7 @@ Partial Class Form4
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
@@ -55,7 +56,6 @@ Partial Class Form4
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.GroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -70,7 +70,7 @@ Partial Class Form4
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(268, 28)
         Me.Label15.TabIndex = 44
-        Me.Label15.Text = "HOTEL ELANG"
+        Me.Label15.Text = "HOTEL "
         Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label14
@@ -131,6 +131,16 @@ Partial Class Form4
         Me.GroupBox1.Size = New System.Drawing.Size(557, 467)
         Me.GroupBox1.TabIndex = 41
         Me.GroupBox1.TabStop = False
+        '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.CheckBox3)
+        Me.Panel1.Controls.Add(Me.CheckBox2)
+        Me.Panel1.Controls.Add(Me.CheckBox1)
+        Me.Panel1.Location = New System.Drawing.Point(248, 269)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(279, 24)
+        Me.Panel1.TabIndex = 45
         '
         'CheckBox3
         '
@@ -422,16 +432,6 @@ Partial Class Form4
         Me.Label1.Size = New System.Drawing.Size(116, 22)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Nama Pemesan"
-        '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.CheckBox3)
-        Me.Panel1.Controls.Add(Me.CheckBox2)
-        Me.Panel1.Controls.Add(Me.CheckBox1)
-        Me.Panel1.Location = New System.Drawing.Point(248, 269)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(279, 24)
-        Me.Panel1.TabIndex = 45
         '
         'Form4
         '

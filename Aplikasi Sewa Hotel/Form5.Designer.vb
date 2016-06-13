@@ -81,7 +81,7 @@ Partial Class Form5
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(382, 45)
         Me.Label20.TabIndex = 26
-        Me.Label20.Text = "HOTEL  HARUM"
+        Me.Label20.Text = "HOTEL "
         Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Button3
