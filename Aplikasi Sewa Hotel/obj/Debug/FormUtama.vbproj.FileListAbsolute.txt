@@ -1,0 +1,4 @@
+D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\bin\Debug\imk 2.exe.config
+D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk 2.exe
+D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk 2.xml
+D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk 2.pdb
