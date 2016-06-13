@@ -1,0 +1,9 @@
+D:\PBO\Suit\Suit\bin\Debug\Suit.exe.config
+D:\PBO\Suit\Suit\obj\Debug\Suit.csprojResolveAssemblyReference.cache
+D:\PBO\Suit\Suit\obj\Debug\Suit.Properties.Resources.resources
+D:\PBO\Suit\Suit\obj\Debug\Suit.csproj.GenerateResource.Cache
+D:\PBO\Suit\Suit\bin\Debug\Suit.exe
+D:\PBO\Suit\Suit\bin\Debug\Suit.pdb
+D:\PBO\Suit\Suit\obj\Debug\Suit.exe
+D:\PBO\Suit\Suit\obj\Debug\Suit.pdb
+D:\PBO\Suit\Suit\obj\Debug\Suit.Suit.resources
