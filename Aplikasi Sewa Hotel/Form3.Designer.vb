@@ -642,7 +642,7 @@ Partial Class Form3
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Form3"
-        Me.Text = "Form3"
+        Me.Text = "Form No Kamar"
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)

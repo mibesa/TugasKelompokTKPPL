@@ -313,7 +313,7 @@ Partial Class Form2
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Form2"
-        Me.Text = "Form2"
+        Me.Text = "Form Jenis Kamar"
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()

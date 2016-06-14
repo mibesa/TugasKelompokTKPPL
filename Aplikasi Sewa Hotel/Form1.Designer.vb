@@ -22,11 +22,11 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.pictureUtama = New System.Windows.Forms.PictureBox()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Picturelayanan3 = New System.Windows.Forms.PictureBox()
+        Me.Picturelayanan2 = New System.Windows.Forms.PictureBox()
+        Me.Picturelayanan1 = New System.Windows.Forms.PictureBox()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -40,32 +40,32 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pictureUtama, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox4.SuspendLayout()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Picturelayanan3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Picturelayanan2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Picturelayanan1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'PictureBox1
+        'pictureUtama
         '
-        Me.PictureBox1.Image = Global.imk_2.My.Resources.Resources.kamar_tidur_mewah_21
-        Me.PictureBox1.Location = New System.Drawing.Point(47, 52)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(643, 205)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 21
-        Me.PictureBox1.TabStop = False
+        Me.pictureUtama.Image = Global.imk_2.My.Resources.Resources.kamar_tidur_mewah_21
+        Me.pictureUtama.Location = New System.Drawing.Point(47, 52)
+        Me.pictureUtama.Name = "pictureUtama"
+        Me.pictureUtama.Size = New System.Drawing.Size(643, 205)
+        Me.pictureUtama.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pictureUtama.TabIndex = 21
+        Me.pictureUtama.TabStop = False
         '
         'GroupBox4
         '
         Me.GroupBox4.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.GroupBox4.Controls.Add(Me.PictureBox5)
-        Me.GroupBox4.Controls.Add(Me.PictureBox4)
-        Me.GroupBox4.Controls.Add(Me.PictureBox2)
+        Me.GroupBox4.Controls.Add(Me.Picturelayanan3)
+        Me.GroupBox4.Controls.Add(Me.Picturelayanan2)
+        Me.GroupBox4.Controls.Add(Me.Picturelayanan1)
         Me.GroupBox4.Controls.Add(Me.Label13)
         Me.GroupBox4.Controls.Add(Me.Label12)
         Me.GroupBox4.Controls.Add(Me.Label11)
@@ -78,35 +78,35 @@ Partial Class Form1
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Layanan Hotel"
         '
-        'PictureBox5
+        'Picturelayanan3
         '
-        Me.PictureBox5.Image = Global.imk_2.My.Resources.Resources.Supporting_Photo_for_MHI_Sol_House_Kuta_01
-        Me.PictureBox5.Location = New System.Drawing.Point(7, 163)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(90, 81)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox5.TabIndex = 17
-        Me.PictureBox5.TabStop = False
+        Me.Picturelayanan3.Image = Global.imk_2.My.Resources.Resources.Supporting_Photo_for_MHI_Sol_House_Kuta_01
+        Me.Picturelayanan3.Location = New System.Drawing.Point(7, 163)
+        Me.Picturelayanan3.Name = "Picturelayanan3"
+        Me.Picturelayanan3.Size = New System.Drawing.Size(90, 81)
+        Me.Picturelayanan3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Picturelayanan3.TabIndex = 17
+        Me.Picturelayanan3.TabStop = False
         '
-        'PictureBox4
+        'Picturelayanan2
         '
-        Me.PictureBox4.Image = Global.imk_2.My.Resources.Resources._674_453_astonbojonegoro_fnb2
-        Me.PictureBox4.Location = New System.Drawing.Point(7, 93)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(90, 62)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 16
-        Me.PictureBox4.TabStop = False
+        Me.Picturelayanan2.Image = Global.imk_2.My.Resources.Resources._674_453_astonbojonegoro_fnb2
+        Me.Picturelayanan2.Location = New System.Drawing.Point(7, 93)
+        Me.Picturelayanan2.Name = "Picturelayanan2"
+        Me.Picturelayanan2.Size = New System.Drawing.Size(90, 62)
+        Me.Picturelayanan2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Picturelayanan2.TabIndex = 16
+        Me.Picturelayanan2.TabStop = False
         '
-        'PictureBox2
+        'Picturelayanan1
         '
-        Me.PictureBox2.Image = Global.imk_2.My.Resources.Resources.miyama
-        Me.PictureBox2.Location = New System.Drawing.Point(7, 17)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(90, 66)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 15
-        Me.PictureBox2.TabStop = False
+        Me.Picturelayanan1.Image = Global.imk_2.My.Resources.Resources.miyama
+        Me.Picturelayanan1.Location = New System.Drawing.Point(7, 17)
+        Me.Picturelayanan1.Name = "Picturelayanan1"
+        Me.Picturelayanan1.Size = New System.Drawing.Size(90, 66)
+        Me.Picturelayanan1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Picturelayanan1.TabIndex = 15
+        Me.Picturelayanan1.TabStop = False
         '
         'Label13
         '
@@ -248,7 +248,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.imk_2.My.Resources.Resources.walking_black_backgrounds_wallpapers
         Me.ClientSize = New System.Drawing.Size(772, 609)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.pictureUtama)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
@@ -257,22 +257,22 @@ Partial Class Form1
         Me.Controls.Add(Me.Label2)
         Me.Name = "Form1"
         Me.Text = "FormUtama"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pictureUtama, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox4.ResumeLayout(False)
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Picturelayanan3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Picturelayanan2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Picturelayanan1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents pictureUtama As System.Windows.Forms.PictureBox
     Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
-    Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Picturelayanan3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Picturelayanan2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Picturelayanan1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label

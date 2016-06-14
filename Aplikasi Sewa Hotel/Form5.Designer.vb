@@ -24,16 +24,16 @@ Partial Class Form5
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form5))
         Me.Label20 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label19 = New System.Windows.Forms.Label()
+        Me.btnpesan = New System.Windows.Forms.Button()
+        Me.btnbatal = New System.Windows.Forms.Button()
+        Me.gbpembayaran = New System.Windows.Forms.GroupBox()
+        Me.txttotalPembayaran = New System.Windows.Forms.TextBox()
+        Me.txtPembayaran = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.btnedit = New System.Windows.Forms.Button()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
-        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.panelpremium = New System.Windows.Forms.TabPage()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
@@ -45,7 +45,7 @@ Partial Class Form5
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TabControl2 = New System.Windows.Forms.TabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.paneldiskon = New System.Windows.Forms.Panel()
         Me.RadioButton7 = New System.Windows.Forms.RadioButton()
         Me.RadioButton10 = New System.Windows.Forms.RadioButton()
         Me.RadioButton5 = New System.Windows.Forms.RadioButton()
@@ -57,16 +57,16 @@ Partial Class Form5
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton12 = New System.Windows.Forms.RadioButton()
-        Me.GroupBox3.SuspendLayout()
+        Me.lbljenispembayaran = New System.Windows.Forms.Label()
+        Me.rbtunai = New System.Windows.Forms.RadioButton()
+        Me.rbkredit = New System.Windows.Forms.RadioButton()
+        Me.gbpembayaran.SuspendLayout()
         Me.TabControl1.SuspendLayout()
-        Me.TabPage1.SuspendLayout()
+        Me.panelpremium.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.TabControl2.SuspendLayout()
         Me.TabPage3.SuspendLayout()
-        Me.Panel1.SuspendLayout()
+        Me.paneldiskon.SuspendLayout()
         Me.TabPage4.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -84,55 +84,55 @@ Partial Class Form5
         Me.Label20.Text = "HOTEL "
         Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Button3
+        'btnpesan
         '
-        Me.Button3.Location = New System.Drawing.Point(535, 360)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(81, 42)
-        Me.Button3.TabIndex = 25
-        Me.Button3.Text = "PESAN"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnpesan.Location = New System.Drawing.Point(535, 360)
+        Me.btnpesan.Name = "btnpesan"
+        Me.btnpesan.Size = New System.Drawing.Size(81, 42)
+        Me.btnpesan.TabIndex = 25
+        Me.btnpesan.Text = "PESAN"
+        Me.btnpesan.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnbatal
         '
-        Me.Button2.Location = New System.Drawing.Point(445, 360)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 42)
-        Me.Button2.TabIndex = 24
-        Me.Button2.Text = "Batal"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnbatal.Location = New System.Drawing.Point(445, 360)
+        Me.btnbatal.Name = "btnbatal"
+        Me.btnbatal.Size = New System.Drawing.Size(75, 42)
+        Me.btnbatal.TabIndex = 24
+        Me.btnbatal.Text = "Batal"
+        Me.btnbatal.UseVisualStyleBackColor = True
         '
-        'GroupBox3
+        'gbpembayaran
         '
-        Me.GroupBox3.BackColor = System.Drawing.Color.Transparent
-        Me.GroupBox3.Controls.Add(Me.TextBox1)
-        Me.GroupBox3.Controls.Add(Me.Label19)
-        Me.GroupBox3.Controls.Add(Me.Label18)
-        Me.GroupBox3.Controls.Add(Me.Label16)
-        Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(485, 110)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(166, 244)
-        Me.GroupBox3.TabIndex = 22
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Data Pembayaran"
+        Me.gbpembayaran.BackColor = System.Drawing.Color.Transparent
+        Me.gbpembayaran.Controls.Add(Me.txttotalPembayaran)
+        Me.gbpembayaran.Controls.Add(Me.txtPembayaran)
+        Me.gbpembayaran.Controls.Add(Me.Label18)
+        Me.gbpembayaran.Controls.Add(Me.Label16)
+        Me.gbpembayaran.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gbpembayaran.Location = New System.Drawing.Point(485, 110)
+        Me.gbpembayaran.Name = "gbpembayaran"
+        Me.gbpembayaran.Size = New System.Drawing.Size(166, 244)
+        Me.gbpembayaran.TabIndex = 22
+        Me.gbpembayaran.TabStop = False
+        Me.gbpembayaran.Text = "Data Pembayaran"
         '
-        'TextBox1
+        'txttotalPembayaran
         '
-        Me.TextBox1.Location = New System.Drawing.Point(9, 55)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(137, 26)
-        Me.TextBox1.TabIndex = 19
+        Me.txttotalPembayaran.Location = New System.Drawing.Point(9, 55)
+        Me.txttotalPembayaran.Name = "txttotalPembayaran"
+        Me.txttotalPembayaran.Size = New System.Drawing.Size(137, 26)
+        Me.txttotalPembayaran.TabIndex = 19
         '
-        'Label19
+        'txtPembayaran
         '
-        Me.Label19.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(9, 144)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(140, 31)
-        Me.Label19.TabIndex = 18
+        Me.txtPembayaran.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtPembayaran.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPembayaran.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPembayaran.Location = New System.Drawing.Point(9, 144)
+        Me.txtPembayaran.Name = "txtPembayaran"
+        Me.txtPembayaran.Size = New System.Drawing.Size(140, 31)
+        Me.txtPembayaran.TabIndex = 18
         '
         'Label18
         '
@@ -165,7 +165,7 @@ Partial Class Form5
         '
         'TabControl1
         '
-        Me.TabControl1.Controls.Add(Me.TabPage1)
+        Me.TabControl1.Controls.Add(Me.panelpremium)
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Location = New System.Drawing.Point(12, 43)
         Me.TabControl1.Name = "TabControl1"
@@ -173,17 +173,17 @@ Partial Class Form5
         Me.TabControl1.Size = New System.Drawing.Size(148, 100)
         Me.TabControl1.TabIndex = 28
         '
-        'TabPage1
+        'panelpremium
         '
-        Me.TabPage1.Controls.Add(Me.RadioButton2)
-        Me.TabPage1.Controls.Add(Me.RadioButton1)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(140, 74)
-        Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "Discount"
-        Me.TabPage1.UseVisualStyleBackColor = True
+        Me.panelpremium.Controls.Add(Me.RadioButton2)
+        Me.panelpremium.Controls.Add(Me.RadioButton1)
+        Me.panelpremium.Location = New System.Drawing.Point(4, 22)
+        Me.panelpremium.Name = "panelpremium"
+        Me.panelpremium.Padding = New System.Windows.Forms.Padding(3)
+        Me.panelpremium.Size = New System.Drawing.Size(140, 74)
+        Me.panelpremium.TabIndex = 0
+        Me.panelpremium.Text = "Discount"
+        Me.panelpremium.UseVisualStyleBackColor = True
         '
         'RadioButton2
         '
@@ -255,9 +255,9 @@ Partial Class Form5
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(13, 25)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(46, 13)
+        Me.Label3.Size = New System.Drawing.Size(52, 13)
         Me.Label3.TabIndex = 29
-        Me.Label3.Text = "Ekslusiv"
+        Me.Label3.Text = "Ekslusive"
         '
         'Label2
         '
@@ -289,7 +289,7 @@ Partial Class Form5
         '
         'TabPage3
         '
-        Me.TabPage3.Controls.Add(Me.Panel1)
+        Me.TabPage3.Controls.Add(Me.paneldiskon)
         Me.TabPage3.Controls.Add(Me.RadioButton5)
         Me.TabPage3.Controls.Add(Me.RadioButton6)
         Me.TabPage3.Location = New System.Drawing.Point(4, 22)
@@ -300,14 +300,14 @@ Partial Class Form5
         Me.TabPage3.Text = "Discount"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
-        'Panel1
+        'paneldiskon
         '
-        Me.Panel1.Controls.Add(Me.RadioButton7)
-        Me.Panel1.Controls.Add(Me.RadioButton10)
-        Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(200, 100)
-        Me.Panel1.TabIndex = 2
+        Me.paneldiskon.Controls.Add(Me.RadioButton7)
+        Me.paneldiskon.Controls.Add(Me.RadioButton10)
+        Me.paneldiskon.Location = New System.Drawing.Point(0, 0)
+        Me.paneldiskon.Name = "paneldiskon"
+        Me.paneldiskon.Size = New System.Drawing.Size(200, 100)
+        Me.paneldiskon.TabIndex = 2
         '
         'RadioButton7
         '
@@ -425,66 +425,66 @@ Partial Class Form5
         Me.Panel3.Size = New System.Drawing.Size(179, 155)
         Me.Panel3.TabIndex = 42
         '
-        'Label5
+        'lbljenispembayaran
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(217, 138)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(93, 13)
-        Me.Label5.TabIndex = 43
-        Me.Label5.Text = "Jenis Pembayaran"
+        Me.lbljenispembayaran.AutoSize = True
+        Me.lbljenispembayaran.Location = New System.Drawing.Point(217, 138)
+        Me.lbljenispembayaran.Name = "lbljenispembayaran"
+        Me.lbljenispembayaran.Size = New System.Drawing.Size(93, 13)
+        Me.lbljenispembayaran.TabIndex = 43
+        Me.lbljenispembayaran.Text = "Jenis Pembayaran"
         '
-        'RadioButton11
+        'rbtunai
         '
-        Me.RadioButton11.AutoSize = True
-        Me.RadioButton11.Location = New System.Drawing.Point(316, 136)
-        Me.RadioButton11.Name = "RadioButton11"
-        Me.RadioButton11.Size = New System.Drawing.Size(52, 17)
-        Me.RadioButton11.TabIndex = 44
-        Me.RadioButton11.TabStop = True
-        Me.RadioButton11.Text = "Tunai"
-        Me.RadioButton11.UseVisualStyleBackColor = True
+        Me.rbtunai.AutoSize = True
+        Me.rbtunai.Location = New System.Drawing.Point(316, 136)
+        Me.rbtunai.Name = "rbtunai"
+        Me.rbtunai.Size = New System.Drawing.Size(52, 17)
+        Me.rbtunai.TabIndex = 44
+        Me.rbtunai.TabStop = True
+        Me.rbtunai.Text = "Tunai"
+        Me.rbtunai.UseVisualStyleBackColor = True
         '
-        'RadioButton12
+        'rbkredit
         '
-        Me.RadioButton12.AutoSize = True
-        Me.RadioButton12.Location = New System.Drawing.Point(316, 171)
-        Me.RadioButton12.Name = "RadioButton12"
-        Me.RadioButton12.Size = New System.Drawing.Size(52, 17)
-        Me.RadioButton12.TabIndex = 45
-        Me.RadioButton12.TabStop = True
-        Me.RadioButton12.Text = "Kredit"
-        Me.RadioButton12.UseVisualStyleBackColor = True
+        Me.rbkredit.AutoSize = True
+        Me.rbkredit.Location = New System.Drawing.Point(316, 171)
+        Me.rbkredit.Name = "rbkredit"
+        Me.rbkredit.Size = New System.Drawing.Size(52, 17)
+        Me.rbkredit.TabIndex = 45
+        Me.rbkredit.TabStop = True
+        Me.rbkredit.Text = "Kredit"
+        Me.rbkredit.UseVisualStyleBackColor = True
         '
         'Form5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(747, 442)
-        Me.Controls.Add(Me.RadioButton12)
-        Me.Controls.Add(Me.RadioButton11)
-        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.rbkredit)
+        Me.Controls.Add(Me.rbtunai)
+        Me.Controls.Add(Me.lbljenispembayaran)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.btnedit)
         Me.Controls.Add(Me.Label20)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.GroupBox3)
+        Me.Controls.Add(Me.btnpesan)
+        Me.Controls.Add(Me.btnbatal)
+        Me.Controls.Add(Me.gbpembayaran)
         Me.Name = "Form5"
-        Me.Text = "Form5"
-        Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox3.PerformLayout()
+        Me.Text = "Form Pembayaran"
+        Me.gbpembayaran.ResumeLayout(False)
+        Me.gbpembayaran.PerformLayout()
         Me.TabControl1.ResumeLayout(False)
-        Me.TabPage1.ResumeLayout(False)
-        Me.TabPage1.PerformLayout()
+        Me.panelpremium.ResumeLayout(False)
+        Me.panelpremium.PerformLayout()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
         Me.TabControl2.ResumeLayout(False)
         Me.TabPage3.ResumeLayout(False)
         Me.TabPage3.PerformLayout()
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
+        Me.paneldiskon.ResumeLayout(False)
+        Me.paneldiskon.PerformLayout()
         Me.TabPage4.ResumeLayout(False)
         Me.TabPage4.PerformLayout()
         Me.Panel2.ResumeLayout(False)
@@ -496,21 +496,21 @@ Partial Class Form5
 
     End Sub
     Friend WithEvents Label20 As System.Windows.Forms.Label
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
-    Friend WithEvents Label19 As System.Windows.Forms.Label
+    Friend WithEvents btnpesan As System.Windows.Forms.Button
+    Friend WithEvents btnbatal As System.Windows.Forms.Button
+    Friend WithEvents gbpembayaran As System.Windows.Forms.GroupBox
+    Friend WithEvents txtPembayaran As System.Windows.Forms.Label
     Friend WithEvents Label18 As System.Windows.Forms.Label
     Friend WithEvents Label16 As System.Windows.Forms.Label
     Friend WithEvents btnedit As System.Windows.Forms.Button
     Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
-    Friend WithEvents TabPage1 As System.Windows.Forms.TabPage
+    Friend WithEvents panelpremium As System.Windows.Forms.TabPage
     Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
     Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton4 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents txttotalPembayaran As System.Windows.Forms.TextBox
     Friend WithEvents Splitter1 As System.Windows.Forms.Splitter
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
@@ -524,12 +524,12 @@ Partial Class Form5
     Friend WithEvents RadioButton8 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton9 As System.Windows.Forms.RadioButton
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents paneldiskon As System.Windows.Forms.Panel
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents Panel3 As System.Windows.Forms.Panel
     Friend WithEvents RadioButton7 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton10 As System.Windows.Forms.RadioButton
-    Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents RadioButton11 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton12 As System.Windows.Forms.RadioButton
+    Friend WithEvents lbljenispembayaran As System.Windows.Forms.Label
+    Friend WithEvents rbtunai As System.Windows.Forms.RadioButton
+    Friend WithEvents rbkredit As System.Windows.Forms.RadioButton
 End Class
