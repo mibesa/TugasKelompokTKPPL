@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class FormUtama
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,31 +22,32 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormUtama))
         Me.pictureUtama = New System.Windows.Forms.PictureBox()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.gbHotel = New System.Windows.Forms.GroupBox()
         Me.Picturelayanan3 = New System.Windows.Forms.PictureBox()
         Me.Picturelayanan2 = New System.Windows.Forms.PictureBox()
         Me.Picturelayanan1 = New System.Windows.Forms.PictureBox()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.gblokasi = New System.Windows.Forms.GroupBox()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.gbtempat = New System.Windows.Forms.GroupBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnPemesanan = New System.Windows.Forms.Button()
+        Me.btnHalamanAwal = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.pictureUtama, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox4.SuspendLayout()
+        Me.gbHotel.SuspendLayout()
         CType(Me.Picturelayanan3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Picturelayanan2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Picturelayanan1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox2.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
+        Me.gblokasi.SuspendLayout()
+        Me.gbtempat.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -60,23 +61,23 @@ Partial Class Form1
         Me.pictureUtama.TabIndex = 21
         Me.pictureUtama.TabStop = False
         '
-        'GroupBox4
+        'gbHotel
         '
-        Me.GroupBox4.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.GroupBox4.Controls.Add(Me.Picturelayanan3)
-        Me.GroupBox4.Controls.Add(Me.Picturelayanan2)
-        Me.GroupBox4.Controls.Add(Me.Picturelayanan1)
-        Me.GroupBox4.Controls.Add(Me.Label13)
-        Me.GroupBox4.Controls.Add(Me.Label12)
-        Me.GroupBox4.Controls.Add(Me.Label11)
-        Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox4.ForeColor = System.Drawing.Color.White
-        Me.GroupBox4.Location = New System.Drawing.Point(69, 304)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(243, 266)
-        Me.GroupBox4.TabIndex = 20
-        Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "Layanan Hotel"
+        Me.gbHotel.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.gbHotel.Controls.Add(Me.Picturelayanan3)
+        Me.gbHotel.Controls.Add(Me.Picturelayanan2)
+        Me.gbHotel.Controls.Add(Me.Picturelayanan1)
+        Me.gbHotel.Controls.Add(Me.Label13)
+        Me.gbHotel.Controls.Add(Me.Label12)
+        Me.gbHotel.Controls.Add(Me.Label11)
+        Me.gbHotel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gbHotel.ForeColor = System.Drawing.Color.White
+        Me.gbHotel.Location = New System.Drawing.Point(69, 304)
+        Me.gbHotel.Name = "gbHotel"
+        Me.gbHotel.Size = New System.Drawing.Size(243, 266)
+        Me.gbHotel.TabIndex = 20
+        Me.gbHotel.TabStop = False
+        Me.gbHotel.Text = "Layanan Hotel"
         '
         'Picturelayanan3
         '
@@ -137,19 +138,19 @@ Partial Class Form1
         Me.Label11.TabIndex = 11
         Me.Label11.Text = "Makanan Premium ( Tersedia di restaurant " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "atau bisa kami antar ke kamar)"
         '
-        'GroupBox2
+        'gblokasi
         '
-        Me.GroupBox2.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.GroupBox2.Controls.Add(Me.Label14)
-        Me.GroupBox2.Controls.Add(Me.Label4)
-        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.GroupBox2.Location = New System.Drawing.Point(329, 436)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(339, 134)
-        Me.GroupBox2.TabIndex = 19
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Lokasi"
+        Me.gblokasi.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.gblokasi.Controls.Add(Me.Label14)
+        Me.gblokasi.Controls.Add(Me.Label4)
+        Me.gblokasi.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gblokasi.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.gblokasi.Location = New System.Drawing.Point(329, 436)
+        Me.gblokasi.Name = "gblokasi"
+        Me.gblokasi.Size = New System.Drawing.Size(339, 134)
+        Me.gblokasi.TabIndex = 19
+        Me.gblokasi.TabStop = False
+        Me.gblokasi.Text = "Lokasi"
         '
         'Label14
         '
@@ -169,17 +170,17 @@ Partial Class Form1
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "HOTEL" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "TERISTIMEWA" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'GroupBox1
+        'gbtempat
         '
-        Me.GroupBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.GroupBox1.Controls.Add(Me.PictureBox3)
-        Me.GroupBox1.Controls.Add(Me.Label5)
-        Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Location = New System.Drawing.Point(329, 303)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(339, 127)
-        Me.GroupBox1.TabIndex = 18
-        Me.GroupBox1.TabStop = False
+        Me.gbtempat.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.gbtempat.Controls.Add(Me.PictureBox3)
+        Me.gbtempat.Controls.Add(Me.Label5)
+        Me.gbtempat.Controls.Add(Me.Label3)
+        Me.gbtempat.Location = New System.Drawing.Point(329, 303)
+        Me.gbtempat.Name = "gbtempat"
+        Me.gbtempat.Size = New System.Drawing.Size(339, 127)
+        Me.gbtempat.TabIndex = 18
+        Me.gbtempat.TabStop = False
         '
         'PictureBox3
         '
@@ -211,24 +212,24 @@ Partial Class Form1
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "HOTEL Dengan senang hati menyambut kehadiran anda !" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'Button2
+        'btnPemesanan
         '
-        Me.Button2.BackColor = System.Drawing.Color.Transparent
-        Me.Button2.Location = New System.Drawing.Point(201, 263)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(90, 35)
-        Me.Button2.TabIndex = 17
-        Me.Button2.Text = "Pemesanan"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btnPemesanan.BackColor = System.Drawing.Color.Transparent
+        Me.btnPemesanan.Location = New System.Drawing.Point(201, 263)
+        Me.btnPemesanan.Name = "btnPemesanan"
+        Me.btnPemesanan.Size = New System.Drawing.Size(90, 35)
+        Me.btnPemesanan.TabIndex = 2
+        Me.btnPemesanan.Text = "Pemesanan"
+        Me.btnPemesanan.UseVisualStyleBackColor = False
         '
-        'Button1
+        'btnHalamanAwal
         '
-        Me.Button1.Location = New System.Drawing.Point(76, 263)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(107, 35)
-        Me.Button1.TabIndex = 16
-        Me.Button1.Text = "Halaman awal"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnHalamanAwal.Location = New System.Drawing.Point(76, 263)
+        Me.btnHalamanAwal.Name = "btnHalamanAwal"
+        Me.btnHalamanAwal.Size = New System.Drawing.Size(107, 35)
+        Me.btnHalamanAwal.TabIndex = 1
+        Me.btnHalamanAwal.Text = "Halaman awal"
+        Me.btnHalamanAwal.UseVisualStyleBackColor = True
         '
         'Label2
         '
@@ -242,49 +243,51 @@ Partial Class Form1
         Me.Label2.Text = "HOTEL ELANG"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Form1
+        'FormUtama
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.imk_2.My.Resources.Resources.walking_black_backgrounds_wallpapers
         Me.ClientSize = New System.Drawing.Size(772, 609)
         Me.Controls.Add(Me.pictureUtama)
-        Me.Controls.Add(Me.GroupBox4)
-        Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.gbHotel)
+        Me.Controls.Add(Me.gblokasi)
+        Me.Controls.Add(Me.gbtempat)
+        Me.Controls.Add(Me.btnPemesanan)
+        Me.Controls.Add(Me.btnHalamanAwal)
         Me.Controls.Add(Me.Label2)
-        Me.Name = "Form1"
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Name = "FormUtama"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "FormUtama"
         CType(Me.pictureUtama, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox4.ResumeLayout(False)
+        Me.gbHotel.ResumeLayout(False)
         CType(Me.Picturelayanan3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Picturelayanan2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Picturelayanan1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox1.ResumeLayout(False)
+        Me.gblokasi.ResumeLayout(False)
+        Me.gbtempat.ResumeLayout(False)
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents pictureUtama As System.Windows.Forms.PictureBox
-    Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
+    Friend WithEvents gbHotel As System.Windows.Forms.GroupBox
     Friend WithEvents Picturelayanan3 As System.Windows.Forms.PictureBox
     Friend WithEvents Picturelayanan2 As System.Windows.Forms.PictureBox
     Friend WithEvents Picturelayanan1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
-    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
+    Friend WithEvents gblokasi As System.Windows.Forms.GroupBox
     Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents gbtempat As System.Windows.Forms.GroupBox
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnPemesanan As System.Windows.Forms.Button
+    Friend WithEvents btnHalamanAwal As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
 
 End Class

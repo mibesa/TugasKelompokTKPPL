@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form4
+Partial Class FormPemesanan
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,8 +22,9 @@ Partial Class Form4
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormPemesanan))
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
+        Me.lblpesan = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -72,16 +73,16 @@ Partial Class Form4
         Me.Label15.Text = "HOTEL "
         Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label14
+        'lblpesan
         '
-        Me.Label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(11, 45)
-        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(167, 29)
-        Me.Label14.TabIndex = 43
-        Me.Label14.Text = "Pemesanan"
+        Me.lblpesan.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblpesan.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblpesan.Location = New System.Drawing.Point(11, 45)
+        Me.lblpesan.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblpesan.Name = "lblpesan"
+        Me.lblpesan.Size = New System.Drawing.Size(167, 29)
+        Me.lblpesan.TabIndex = 43
+        Me.lblpesan.Text = "Pemesanan"
         '
         'Button1
         '
@@ -422,17 +423,19 @@ Partial Class Form4
         Me.lblpemesanan.TabIndex = 0
         Me.lblpemesanan.Text = "Nama Pemesan"
         '
-        'Form4
+        'FormPemesanan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.imk_2.My.Resources.Resources._097_example
         Me.ClientSize = New System.Drawing.Size(576, 582)
         Me.Controls.Add(Me.Label15)
-        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.lblpesan)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "Form4"
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Name = "FormPemesanan"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = " Form Pemesanan"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
@@ -442,7 +445,7 @@ Partial Class Form4
 
     End Sub
     Friend WithEvents Label15 As System.Windows.Forms.Label
-    Friend WithEvents Label14 As System.Windows.Forms.Label
+    Friend WithEvents lblpesan As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents ComboBox4 As System.Windows.Forms.ComboBox

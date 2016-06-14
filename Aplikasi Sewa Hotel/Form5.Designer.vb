@@ -23,14 +23,14 @@ Partial Class Form5
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form5))
-        Me.Label20 = New System.Windows.Forms.Label()
+        Me.lblHotel = New System.Windows.Forms.Label()
         Me.btnpesan = New System.Windows.Forms.Button()
         Me.btnbatal = New System.Windows.Forms.Button()
         Me.gbpembayaran = New System.Windows.Forms.GroupBox()
         Me.txttotalPembayaran = New System.Windows.Forms.TextBox()
         Me.txtPembayaran = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
+        Me.lbljnsbayar = New System.Windows.Forms.Label()
+        Me.lbltotbayar = New System.Windows.Forms.Label()
         Me.btnedit = New System.Windows.Forms.Button()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.panelpremium = New System.Windows.Forms.TabPage()
@@ -40,8 +40,8 @@ Partial Class Form5
         Me.Splitter1 = New System.Windows.Forms.Splitter()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.lblEkslusive = New System.Windows.Forms.Label()
+        Me.lblPremium = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TabControl2 = New System.Windows.Forms.TabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
@@ -72,17 +72,17 @@ Partial Class Form5
         Me.Panel3.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Label20
+        'lblHotel
         '
-        Me.Label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.ForeColor = System.Drawing.Color.Black
-        Me.Label20.Location = New System.Drawing.Point(189, 24)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(382, 45)
-        Me.Label20.TabIndex = 26
-        Me.Label20.Text = "HOTEL "
-        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblHotel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblHotel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHotel.ForeColor = System.Drawing.Color.Black
+        Me.lblHotel.Location = New System.Drawing.Point(189, 24)
+        Me.lblHotel.Name = "lblHotel"
+        Me.lblHotel.Size = New System.Drawing.Size(382, 45)
+        Me.lblHotel.TabIndex = 26
+        Me.lblHotel.Text = "HOTEL "
+        Me.lblHotel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnpesan
         '
@@ -107,8 +107,8 @@ Partial Class Form5
         Me.gbpembayaran.BackColor = System.Drawing.Color.Transparent
         Me.gbpembayaran.Controls.Add(Me.txttotalPembayaran)
         Me.gbpembayaran.Controls.Add(Me.txtPembayaran)
-        Me.gbpembayaran.Controls.Add(Me.Label18)
-        Me.gbpembayaran.Controls.Add(Me.Label16)
+        Me.gbpembayaran.Controls.Add(Me.lbljnsbayar)
+        Me.gbpembayaran.Controls.Add(Me.lbltotbayar)
         Me.gbpembayaran.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gbpembayaran.Location = New System.Drawing.Point(485, 110)
         Me.gbpembayaran.Name = "gbpembayaran"
@@ -134,23 +134,23 @@ Partial Class Form5
         Me.txtPembayaran.Size = New System.Drawing.Size(140, 31)
         Me.txtPembayaran.TabIndex = 18
         '
-        'Label18
+        'lbljnsbayar
         '
-        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(6, 116)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(151, 31)
-        Me.Label18.TabIndex = 17
-        Me.Label18.Text = "Jenis Pembayaran"
+        Me.lbljnsbayar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbljnsbayar.Location = New System.Drawing.Point(6, 116)
+        Me.lbljnsbayar.Name = "lbljnsbayar"
+        Me.lbljnsbayar.Size = New System.Drawing.Size(151, 31)
+        Me.lbljnsbayar.TabIndex = 17
+        Me.lbljnsbayar.Text = "Jenis Pembayaran"
         '
-        'Label16
+        'lbltotbayar
         '
-        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(16, 26)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(130, 42)
-        Me.Label16.TabIndex = 15
-        Me.Label16.Text = "Total Pembayaran"
+        Me.lbltotbayar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbltotbayar.Location = New System.Drawing.Point(16, 26)
+        Me.lbltotbayar.Name = "lbltotbayar"
+        Me.lbltotbayar.Size = New System.Drawing.Size(130, 42)
+        Me.lbltotbayar.TabIndex = 15
+        Me.lbltotbayar.Text = "Total Pembayaran"
         '
         'btnedit
         '
@@ -250,23 +250,23 @@ Partial Class Form5
         Me.RadioButton3.Text = "1Minggu"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
-        'Label3
+        'lblEkslusive
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(13, 25)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(52, 13)
-        Me.Label3.TabIndex = 29
-        Me.Label3.Text = "Ekslusive"
+        Me.lblEkslusive.AutoSize = True
+        Me.lblEkslusive.Location = New System.Drawing.Point(13, 25)
+        Me.lblEkslusive.Name = "lblEkslusive"
+        Me.lblEkslusive.Size = New System.Drawing.Size(52, 13)
+        Me.lblEkslusive.TabIndex = 29
+        Me.lblEkslusive.Text = "Ekslusive"
         '
-        'Label2
+        'lblPremium
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(18, 22)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(47, 13)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Premium"
+        Me.lblPremium.AutoSize = True
+        Me.lblPremium.Location = New System.Drawing.Point(18, 22)
+        Me.lblPremium.Name = "lblPremium"
+        Me.lblPremium.Size = New System.Drawing.Size(47, 13)
+        Me.lblPremium.TabIndex = 3
+        Me.lblPremium.Text = "Premium"
         '
         'Label1
         '
@@ -409,7 +409,7 @@ Partial Class Form5
         '
         Me.Panel2.Controls.Add(Me.TabControl1)
         Me.Panel2.Controls.Add(Me.Label1)
-        Me.Panel2.Controls.Add(Me.Label2)
+        Me.Panel2.Controls.Add(Me.lblPremium)
         Me.Panel2.Location = New System.Drawing.Point(12, 88)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(179, 153)
@@ -417,7 +417,7 @@ Partial Class Form5
         '
         'Panel3
         '
-        Me.Panel3.Controls.Add(Me.Label3)
+        Me.Panel3.Controls.Add(Me.lblEkslusive)
         Me.Panel3.Controls.Add(Me.Label4)
         Me.Panel3.Controls.Add(Me.TabControl2)
         Me.Panel3.Location = New System.Drawing.Point(12, 247)
@@ -467,10 +467,11 @@ Partial Class Form5
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.btnedit)
-        Me.Controls.Add(Me.Label20)
+        Me.Controls.Add(Me.lblHotel)
         Me.Controls.Add(Me.btnpesan)
         Me.Controls.Add(Me.btnbatal)
         Me.Controls.Add(Me.gbpembayaran)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form5"
         Me.Text = "Form Pembayaran"
         Me.gbpembayaran.ResumeLayout(False)
@@ -495,13 +496,13 @@ Partial Class Form5
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Label20 As System.Windows.Forms.Label
+    Friend WithEvents lblHotel As System.Windows.Forms.Label
     Friend WithEvents btnpesan As System.Windows.Forms.Button
     Friend WithEvents btnbatal As System.Windows.Forms.Button
     Friend WithEvents gbpembayaran As System.Windows.Forms.GroupBox
     Friend WithEvents txtPembayaran As System.Windows.Forms.Label
-    Friend WithEvents Label18 As System.Windows.Forms.Label
-    Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents lbljnsbayar As System.Windows.Forms.Label
+    Friend WithEvents lbltotbayar As System.Windows.Forms.Label
     Friend WithEvents btnedit As System.Windows.Forms.Button
     Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
     Friend WithEvents panelpremium As System.Windows.Forms.TabPage
@@ -512,8 +513,8 @@ Partial Class Form5
     Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
     Friend WithEvents txttotalPembayaran As System.Windows.Forms.TextBox
     Friend WithEvents Splitter1 As System.Windows.Forms.Splitter
-    Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents lblEkslusive As System.Windows.Forms.Label
+    Friend WithEvents lblPremium As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents TabControl2 As System.Windows.Forms.TabControl
     Friend WithEvents TabPage3 As System.Windows.Forms.TabPage

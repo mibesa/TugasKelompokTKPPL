@@ -5,10 +5,10 @@ D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk 2.pdb
 D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\bin\Debug\imk 2.exe
 D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\bin\Debug\imk 2.pdb
 D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\bin\Debug\imk 2.xml
-D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk_2.Form1.resources
-D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk_2.Form2.resources
-D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk_2.Form3.resources
-D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk_2.Form4.resources
 D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk_2.Form5.resources
 D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk_2.Resources.resources
 D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\FormUtama.vbproj.GenerateResource.Cache
+D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk_2.FormUtama.resources
+D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk_2.FormJenisKamar.resources
+D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk_2.FormNoKamar.resources
+D:\ProjectTKPPL\TugasKelompokTKPPL\Aplikasi Sewa Hotel\obj\Debug\imk_2.FormPemesanan.resources

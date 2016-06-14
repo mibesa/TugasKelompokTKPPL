@@ -1,4 +1,4 @@
-﻿Public Class Form3
+﻿Public Class FormNoKamar
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click, Button2.Click, Button4.Click, Button5.Click, Button7.Click, Button16.Click, Button12.Click,
         Button11.Click, Button10.Click
 
@@ -6,10 +6,10 @@
 
     End Sub
 
-   
+
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click, Button6.Click, Button8.Click, Button15.Click,
          Button14.Click, Button13.Click, Button9.Click
-        Form4.Show()
+        FormPemesanan.Show()
         Me.Close()
     End Sub
 
@@ -21,17 +21,17 @@
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click, Button19.Click, Button20.Click, Button21.Click, Button23.Click, Button27.Click,
         Button28.Click, Button31.Click
-        Form4.Show()
+        FormPemesanan.Show()
         Me.Close()
     End Sub
 
     Private Sub Button35_Click(sender As Object, e As EventArgs) Handles Button35.Click
-        Form4.Show()
+        FormPemesanan.Show()
         Me.Close()
     End Sub
 
     Private Sub Button43_Click(sender As Object, e As EventArgs) Handles Button43.Click
-        Form4.Show()
+        FormPemesanan.Show()
         Me.Close()
     End Sub
 
@@ -44,7 +44,7 @@
     End Sub
 
     Private Sub Button48_Click(sender As Object, e As EventArgs) Handles Button48.Click
-        Form4.Show()
+        FormPemesanan.Show()
         Me.Close()
     End Sub
 End Class

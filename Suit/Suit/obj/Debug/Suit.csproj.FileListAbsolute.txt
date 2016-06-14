@@ -7,3 +7,6 @@ D:\PBO\Suit\Suit\bin\Debug\Suit.pdb
 D:\PBO\Suit\Suit\obj\Debug\Suit.exe
 D:\PBO\Suit\Suit\obj\Debug\Suit.pdb
 D:\PBO\Suit\Suit\obj\Debug\Suit.Suit.resources
+D:\ProjectTKPPL\TugasKelompokTKPPL\Suit\Suit\bin\Debug\Suit.exe.config
+D:\ProjectTKPPL\TugasKelompokTKPPL\Suit\Suit\obj\Debug\Suit.exe
+D:\ProjectTKPPL\TugasKelompokTKPPL\Suit\Suit\obj\Debug\Suit.pdb

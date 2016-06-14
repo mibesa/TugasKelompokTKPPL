@@ -1,6 +1,6 @@
-﻿Public Class Form4
+﻿Public Class FormPemesanan
 
-    Private Sub Label14_Click(sender As Object, e As EventArgs) Handles Label14.Click
+    Private Sub Label14_Click(sender As Object, e As EventArgs) Handles lblpesan.Click
 
     End Sub
 

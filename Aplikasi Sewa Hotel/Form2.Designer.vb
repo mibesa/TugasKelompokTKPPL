@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+Partial Class FormJenisKamar
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,37 +22,38 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormJenisKamar))
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.lblcomment = New System.Windows.Forms.Label()
+        Me.gbkamarspesial = New System.Windows.Forms.GroupBox()
+        Me.lblpilih3 = New System.Windows.Forms.LinkLabel()
+        Me.picturekmrspesial = New System.Windows.Forms.PictureBox()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.gbkamarpremium = New System.Windows.Forms.GroupBox()
+        Me.picturekmrpremium = New System.Windows.Forms.PictureBox()
+        Me.lblpilih2 = New System.Windows.Forms.LinkLabel()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.LinkLabel3 = New System.Windows.Forms.LinkLabel()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.gbkamarekonomi = New System.Windows.Forms.GroupBox()
+        Me.lblpilih1 = New System.Windows.Forms.LinkLabel()
+        Me.picturekmrekonomi = New System.Windows.Forms.PictureBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.GroupBox3.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox2.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox1.SuspendLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.gbkamarspesial.SuspendLayout()
+        CType(Me.picturekmrspesial, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.gbkamarpremium.SuspendLayout()
+        CType(Me.picturekmrpremium, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.gbkamarekonomi.SuspendLayout()
+        CType(Me.picturekmrekonomi, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button4
@@ -76,53 +77,53 @@ Partial Class Form2
         Me.Label5.Text = "HOTEL ELANG"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label4
+        'lblcomment
         '
-        Me.Label4.BackColor = System.Drawing.Color.LightGray
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(52, 112)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(592, 38)
-        Me.Label4.TabIndex = 27
-        Me.Label4.Text = "Kami memiliki beberapa jenis pilihan kamar"
+        Me.lblcomment.BackColor = System.Drawing.Color.LightGray
+        Me.lblcomment.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblcomment.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.lblcomment.Location = New System.Drawing.Point(52, 112)
+        Me.lblcomment.Name = "lblcomment"
+        Me.lblcomment.Size = New System.Drawing.Size(592, 38)
+        Me.lblcomment.TabIndex = 27
+        Me.lblcomment.Text = "Kami memiliki beberapa jenis pilihan kamar"
         '
-        'GroupBox3
+        'gbkamarspesial
         '
-        Me.GroupBox3.Controls.Add(Me.LinkLabel2)
-        Me.GroupBox3.Controls.Add(Me.PictureBox2)
-        Me.GroupBox3.Controls.Add(Me.Label19)
-        Me.GroupBox3.Controls.Add(Me.Label16)
-        Me.GroupBox3.Controls.Add(Me.Label15)
-        Me.GroupBox3.Controls.Add(Me.Label12)
-        Me.GroupBox3.Controls.Add(Me.Label9)
-        Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(464, 152)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(180, 352)
-        Me.GroupBox3.TabIndex = 26
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Kamar Spesial"
+        Me.gbkamarspesial.Controls.Add(Me.lblpilih3)
+        Me.gbkamarspesial.Controls.Add(Me.picturekmrspesial)
+        Me.gbkamarspesial.Controls.Add(Me.Label19)
+        Me.gbkamarspesial.Controls.Add(Me.Label16)
+        Me.gbkamarspesial.Controls.Add(Me.Label15)
+        Me.gbkamarspesial.Controls.Add(Me.Label12)
+        Me.gbkamarspesial.Controls.Add(Me.Label9)
+        Me.gbkamarspesial.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gbkamarspesial.Location = New System.Drawing.Point(464, 152)
+        Me.gbkamarspesial.Name = "gbkamarspesial"
+        Me.gbkamarspesial.Size = New System.Drawing.Size(180, 352)
+        Me.gbkamarspesial.TabIndex = 26
+        Me.gbkamarspesial.TabStop = False
+        Me.gbkamarspesial.Text = "Kamar Spesial"
         '
-        'LinkLabel2
+        'lblpilih3
         '
-        Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.Location = New System.Drawing.Point(13, 315)
-        Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(131, 16)
-        Me.LinkLabel2.TabIndex = 27
-        Me.LinkLabel2.TabStop = True
-        Me.LinkLabel2.Text = "Pesan Sekarang !"
+        Me.lblpilih3.AutoSize = True
+        Me.lblpilih3.Location = New System.Drawing.Point(13, 315)
+        Me.lblpilih3.Name = "lblpilih3"
+        Me.lblpilih3.Size = New System.Drawing.Size(131, 16)
+        Me.lblpilih3.TabIndex = 27
+        Me.lblpilih3.TabStop = True
+        Me.lblpilih3.Text = "Pesan Sekarang !"
         '
-        'PictureBox2
+        'picturekmrspesial
         '
-        Me.PictureBox2.Image = Global.imk_2.My.Resources.Resources._195343431
-        Me.PictureBox2.Location = New System.Drawing.Point(16, 21)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(152, 110)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 25
-        Me.PictureBox2.TabStop = False
+        Me.picturekmrspesial.Image = Global.imk_2.My.Resources.Resources._195343431
+        Me.picturekmrspesial.Location = New System.Drawing.Point(16, 21)
+        Me.picturekmrspesial.Name = "picturekmrspesial"
+        Me.picturekmrspesial.Size = New System.Drawing.Size(152, 110)
+        Me.picturekmrspesial.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picturekmrspesial.TabIndex = 25
+        Me.picturekmrspesial.TabStop = False
         '
         'Label19
         '
@@ -164,41 +165,41 @@ Partial Class Form2
         Me.Label9.TabIndex = 11
         Me.Label9.Text = "Lantai                     1"
         '
-        'GroupBox2
+        'gbkamarpremium
         '
-        Me.GroupBox2.Controls.Add(Me.PictureBox1)
-        Me.GroupBox2.Controls.Add(Me.LinkLabel1)
-        Me.GroupBox2.Controls.Add(Me.Label11)
-        Me.GroupBox2.Controls.Add(Me.Label18)
-        Me.GroupBox2.Controls.Add(Me.Label14)
-        Me.GroupBox2.Controls.Add(Me.Label8)
-        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(263, 152)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(195, 352)
-        Me.GroupBox2.TabIndex = 25
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Kamar Premium"
+        Me.gbkamarpremium.Controls.Add(Me.picturekmrpremium)
+        Me.gbkamarpremium.Controls.Add(Me.lblpilih2)
+        Me.gbkamarpremium.Controls.Add(Me.Label11)
+        Me.gbkamarpremium.Controls.Add(Me.Label18)
+        Me.gbkamarpremium.Controls.Add(Me.Label14)
+        Me.gbkamarpremium.Controls.Add(Me.Label8)
+        Me.gbkamarpremium.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gbkamarpremium.Location = New System.Drawing.Point(263, 152)
+        Me.gbkamarpremium.Name = "gbkamarpremium"
+        Me.gbkamarpremium.Size = New System.Drawing.Size(195, 352)
+        Me.gbkamarpremium.TabIndex = 25
+        Me.gbkamarpremium.TabStop = False
+        Me.gbkamarpremium.Text = "Kamar Premium"
         '
-        'PictureBox1
+        'picturekmrpremium
         '
-        Me.PictureBox1.Image = Global.imk_2.My.Resources.Resources.kamar_hotel_meritus_seminyak_bali
-        Me.PictureBox1.Location = New System.Drawing.Point(6, 21)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(177, 110)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 24
-        Me.PictureBox1.TabStop = False
+        Me.picturekmrpremium.Image = Global.imk_2.My.Resources.Resources.kamar_hotel_meritus_seminyak_bali
+        Me.picturekmrpremium.Location = New System.Drawing.Point(6, 21)
+        Me.picturekmrpremium.Name = "picturekmrpremium"
+        Me.picturekmrpremium.Size = New System.Drawing.Size(177, 110)
+        Me.picturekmrpremium.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picturekmrpremium.TabIndex = 24
+        Me.picturekmrpremium.TabStop = False
         '
-        'LinkLabel1
+        'lblpilih2
         '
-        Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(6, 315)
-        Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(131, 16)
-        Me.LinkLabel1.TabIndex = 26
-        Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "Pesan Sekarang !"
+        Me.lblpilih2.AutoSize = True
+        Me.lblpilih2.Location = New System.Drawing.Point(6, 315)
+        Me.lblpilih2.Name = "lblpilih2"
+        Me.lblpilih2.Size = New System.Drawing.Size(131, 16)
+        Me.lblpilih2.TabIndex = 26
+        Me.lblpilih2.TabStop = True
+        Me.lblpilih2.Text = "Pesan Sekarang !"
         '
         'Label11
         '
@@ -232,41 +233,41 @@ Partial Class Form2
         Me.Label8.TabIndex = 10
         Me.Label8.Text = "Lantai                         2"
         '
-        'GroupBox1
+        'gbkamarekonomi
         '
-        Me.GroupBox1.Controls.Add(Me.LinkLabel3)
-        Me.GroupBox1.Controls.Add(Me.PictureBox3)
-        Me.GroupBox1.Controls.Add(Me.Label10)
-        Me.GroupBox1.Controls.Add(Me.Label17)
-        Me.GroupBox1.Controls.Add(Me.Label13)
-        Me.GroupBox1.Controls.Add(Me.Label7)
-        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(52, 152)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(196, 353)
-        Me.GroupBox1.TabIndex = 24
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Kamar Ekonomi"
+        Me.gbkamarekonomi.Controls.Add(Me.lblpilih1)
+        Me.gbkamarekonomi.Controls.Add(Me.picturekmrekonomi)
+        Me.gbkamarekonomi.Controls.Add(Me.Label10)
+        Me.gbkamarekonomi.Controls.Add(Me.Label17)
+        Me.gbkamarekonomi.Controls.Add(Me.Label13)
+        Me.gbkamarekonomi.Controls.Add(Me.Label7)
+        Me.gbkamarekonomi.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gbkamarekonomi.Location = New System.Drawing.Point(52, 152)
+        Me.gbkamarekonomi.Name = "gbkamarekonomi"
+        Me.gbkamarekonomi.Size = New System.Drawing.Size(196, 353)
+        Me.gbkamarekonomi.TabIndex = 24
+        Me.gbkamarekonomi.TabStop = False
+        Me.gbkamarekonomi.Text = "Kamar Ekonomi"
         '
-        'LinkLabel3
+        'lblpilih1
         '
-        Me.LinkLabel3.AutoSize = True
-        Me.LinkLabel3.Location = New System.Drawing.Point(6, 315)
-        Me.LinkLabel3.Name = "LinkLabel3"
-        Me.LinkLabel3.Size = New System.Drawing.Size(131, 16)
-        Me.LinkLabel3.TabIndex = 27
-        Me.LinkLabel3.TabStop = True
-        Me.LinkLabel3.Text = "Pesan Sekarang !"
+        Me.lblpilih1.AutoSize = True
+        Me.lblpilih1.Location = New System.Drawing.Point(6, 315)
+        Me.lblpilih1.Name = "lblpilih1"
+        Me.lblpilih1.Size = New System.Drawing.Size(131, 16)
+        Me.lblpilih1.TabIndex = 27
+        Me.lblpilih1.TabStop = True
+        Me.lblpilih1.Text = "Pesan Sekarang !"
         '
-        'PictureBox3
+        'picturekmrekonomi
         '
-        Me.PictureBox3.Image = Global.imk_2.My.Resources.Resources.penataan_rapi_ala_kamar_tidur_hotel_bintang_51
-        Me.PictureBox3.Location = New System.Drawing.Point(9, 21)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(173, 110)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox3.TabIndex = 23
-        Me.PictureBox3.TabStop = False
+        Me.picturekmrekonomi.Image = Global.imk_2.My.Resources.Resources.penataan_rapi_ala_kamar_tidur_hotel_bintang_51
+        Me.picturekmrekonomi.Location = New System.Drawing.Point(9, 21)
+        Me.picturekmrekonomi.Name = "picturekmrekonomi"
+        Me.picturekmrekonomi.Size = New System.Drawing.Size(173, 110)
+        Me.picturekmrekonomi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picturekmrekonomi.TabIndex = 23
+        Me.picturekmrekonomi.TabStop = False
         '
         'Label10
         '
@@ -300,7 +301,7 @@ Partial Class Form2
         Me.Label7.TabIndex = 9
         Me.Label7.Text = "Lantai                       3"
         '
-        'Form2
+        'FormJenisKamar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -308,47 +309,49 @@ Partial Class Form2
         Me.ClientSize = New System.Drawing.Size(685, 546)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.GroupBox3)
-        Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "Form2"
+        Me.Controls.Add(Me.lblcomment)
+        Me.Controls.Add(Me.gbkamarspesial)
+        Me.Controls.Add(Me.gbkamarpremium)
+        Me.Controls.Add(Me.gbkamarekonomi)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Name = "FormJenisKamar"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form Jenis Kamar"
-        Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox3.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.gbkamarspesial.ResumeLayout(False)
+        Me.gbkamarspesial.PerformLayout()
+        CType(Me.picturekmrspesial, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.gbkamarpremium.ResumeLayout(False)
+        Me.gbkamarpremium.PerformLayout()
+        CType(Me.picturekmrpremium, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.gbkamarekonomi.ResumeLayout(False)
+        Me.gbkamarekonomi.PerformLayout()
+        CType(Me.picturekmrekonomi, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
+    Friend WithEvents lblcomment As System.Windows.Forms.Label
+    Friend WithEvents gbkamarspesial As System.Windows.Forms.GroupBox
     Friend WithEvents Label19 As System.Windows.Forms.Label
     Friend WithEvents Label16 As System.Windows.Forms.Label
     Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
+    Friend WithEvents gbkamarpremium As System.Windows.Forms.GroupBox
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label18 As System.Windows.Forms.Label
     Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents gbkamarekonomi As System.Windows.Forms.GroupBox
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Label17 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents Label7 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
-    Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
-    Friend WithEvents LinkLabel2 As System.Windows.Forms.LinkLabel
-    Friend WithEvents LinkLabel3 As System.Windows.Forms.LinkLabel
+    Friend WithEvents picturekmrspesial As System.Windows.Forms.PictureBox
+    Friend WithEvents picturekmrpremium As System.Windows.Forms.PictureBox
+    Friend WithEvents picturekmrekonomi As System.Windows.Forms.PictureBox
+    Friend WithEvents lblpilih2 As System.Windows.Forms.LinkLabel
+    Friend WithEvents lblpilih3 As System.Windows.Forms.LinkLabel
+    Friend WithEvents lblpilih1 As System.Windows.Forms.LinkLabel
 End Class

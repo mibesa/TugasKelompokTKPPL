@@ -1,7 +1,7 @@
 ﻿Public Class Form5
 
     Private Sub btnedit_Click(sender As Object, e As EventArgs) Handles btnedit.Click
-        Form4.Show()
+        FormPemesanan.Show()
         Me.Close()
     End Sub
 
