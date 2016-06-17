@@ -56,6 +56,7 @@ Partial Class FormPemesanan
         Me.lblidentitas = New System.Windows.Forms.Label()
         Me.lblkartu = New System.Windows.Forms.Label()
         Me.lblpemesanan = New System.Windows.Forms.Label()
+        Me.lnkkembali = New System.Windows.Forms.LinkLabel()
         Me.GroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -423,12 +424,23 @@ Partial Class FormPemesanan
         Me.lblpemesanan.TabIndex = 0
         Me.lblpemesanan.Text = "Nama Pemesan"
         '
+        'lnkkembali
+        '
+        Me.lnkkembali.AutoSize = True
+        Me.lnkkembali.Location = New System.Drawing.Point(12, 557)
+        Me.lnkkembali.Name = "lnkkembali"
+        Me.lnkkembali.Size = New System.Drawing.Size(44, 13)
+        Me.lnkkembali.TabIndex = 45
+        Me.lnkkembali.TabStop = True
+        Me.lnkkembali.Text = "Kembali"
+        '
         'FormPemesanan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.imk_2.My.Resources.Resources._097_example
         Me.ClientSize = New System.Drawing.Size(576, 582)
+        Me.Controls.Add(Me.lnkkembali)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.lblpesan)
         Me.Controls.Add(Me.Button1)
@@ -442,6 +454,7 @@ Partial Class FormPemesanan
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Label15 As System.Windows.Forms.Label
@@ -477,4 +490,5 @@ Partial Class FormPemesanan
     Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents lnkkembali As System.Windows.Forms.LinkLabel
 End Class

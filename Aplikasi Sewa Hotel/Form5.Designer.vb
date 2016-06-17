@@ -60,6 +60,7 @@ Partial Class Form5
         Me.lbljenispembayaran = New System.Windows.Forms.Label()
         Me.rbtunai = New System.Windows.Forms.RadioButton()
         Me.rbkredit = New System.Windows.Forms.RadioButton()
+        Me.Linkkembali = New System.Windows.Forms.LinkLabel()
         Me.gbpembayaran.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.panelpremium.SuspendLayout()
@@ -456,11 +457,22 @@ Partial Class Form5
         Me.rbkredit.Text = "Kredit"
         Me.rbkredit.UseVisualStyleBackColor = True
         '
+        'Linkkembali
+        '
+        Me.Linkkembali.AutoSize = True
+        Me.Linkkembali.Location = New System.Drawing.Point(217, 378)
+        Me.Linkkembali.Name = "Linkkembali"
+        Me.Linkkembali.Size = New System.Drawing.Size(44, 13)
+        Me.Linkkembali.TabIndex = 46
+        Me.Linkkembali.TabStop = True
+        Me.Linkkembali.Text = "Kembali"
+        '
         'Form5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(747, 442)
+        Me.Controls.Add(Me.Linkkembali)
         Me.Controls.Add(Me.rbkredit)
         Me.Controls.Add(Me.rbtunai)
         Me.Controls.Add(Me.lbljenispembayaran)
@@ -533,4 +545,5 @@ Partial Class Form5
     Friend WithEvents lbljenispembayaran As System.Windows.Forms.Label
     Friend WithEvents rbtunai As System.Windows.Forms.RadioButton
     Friend WithEvents rbkredit As System.Windows.Forms.RadioButton
+    Friend WithEvents Linkkembali As System.Windows.Forms.LinkLabel
 End Class

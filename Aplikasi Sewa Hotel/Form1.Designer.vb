@@ -54,7 +54,7 @@ Partial Class FormUtama
         'pictureUtama
         '
         Me.pictureUtama.Image = Global.imk_2.My.Resources.Resources.kamar_tidur_mewah_21
-        Me.pictureUtama.Location = New System.Drawing.Point(47, 52)
+        Me.pictureUtama.Location = New System.Drawing.Point(47, 53)
         Me.pictureUtama.Name = "pictureUtama"
         Me.pictureUtama.Size = New System.Drawing.Size(643, 205)
         Me.pictureUtama.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage

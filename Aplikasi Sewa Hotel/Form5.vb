@@ -57,4 +57,9 @@
     Private Sub RadioButton12_CheckedChanged(sender As Object, e As EventArgs) Handles rbkredit.CheckedChanged
         txtPembayaran.Text = "Kredit"
     End Sub
+
+    Private Sub Linkkembali_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles Linkkembali.LinkClicked
+        Text = "Kembali Ke Form Pemesanan"
+        FormPemesanan.Show()
+    End Sub
 End Class

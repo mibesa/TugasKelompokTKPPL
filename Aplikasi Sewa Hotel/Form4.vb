@@ -12,4 +12,8 @@
     Private Sub Label15_Click(sender As Object, e As EventArgs) Handles Label15.Click
 
     End Sub
+
+    Private Sub lnkkembali_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkkembali.LinkClicked
+        FormNoKamar.Show()
+    End Sub
 End Class

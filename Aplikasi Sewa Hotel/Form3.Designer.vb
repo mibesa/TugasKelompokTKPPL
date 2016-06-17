@@ -74,6 +74,7 @@ Partial Class FormNoKamar
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.lblJenisKamar = New System.Windows.Forms.Label()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -634,11 +635,22 @@ Partial Class FormNoKamar
         Me.Button1.Text = "1201"
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'lblJenisKamar
+        '
+        Me.lblJenisKamar.AutoSize = True
+        Me.lblJenisKamar.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblJenisKamar.Location = New System.Drawing.Point(195, 9)
+        Me.lblJenisKamar.Name = "lblJenisKamar"
+        Me.lblJenisKamar.Size = New System.Drawing.Size(193, 31)
+        Me.lblJenisKamar.TabIndex = 5
+        Me.lblJenisKamar.Text = "Pilih No Kamar"
+        '
         'FormNoKamar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(635, 545)
+        Me.Controls.Add(Me.lblJenisKamar)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
@@ -650,6 +662,7 @@ Partial Class FormNoKamar
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
@@ -703,4 +716,5 @@ Partial Class FormNoKamar
     Friend WithEvents Button9 As System.Windows.Forms.Button
     Friend WithEvents Button8 As System.Windows.Forms.Button
     Friend WithEvents Button6 As System.Windows.Forms.Button
+    Friend WithEvents lblJenisKamar As System.Windows.Forms.Label
 End Class

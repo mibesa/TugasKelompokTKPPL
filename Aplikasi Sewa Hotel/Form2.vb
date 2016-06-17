@@ -30,4 +30,9 @@
         FormNoKamar.GroupBox3.Enabled = True
         Me.Close()
     End Sub
+
+    Private Sub linkkembali_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles linkkembali.LinkClicked
+        FormUtama.Show()
+        Me.Close()
+    End Sub
 End Class
