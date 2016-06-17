@@ -1,0 +1,7 @@
+User Story :
+1. Buat UserInterface Utama
+2. Buat UserInterface Pembayaran
+3. Buat UserInterface JenisKamar
+4. Buat UserInterface NoKamar
+5. Buat UserInterface Pemesanan
+ 
