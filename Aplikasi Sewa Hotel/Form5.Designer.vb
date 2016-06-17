@@ -34,16 +34,16 @@ Partial Class Form5
         Me.btnedit = New System.Windows.Forms.Button()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.panelpremium = New System.Windows.Forms.TabPage()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.rbpersen2 = New System.Windows.Forms.RadioButton()
+        Me.rbpersen1 = New System.Windows.Forms.RadioButton()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Splitter1 = New System.Windows.Forms.Splitter()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.lblEkslusive = New System.Windows.Forms.Label()
         Me.lblPremium = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.TabControl2 = New System.Windows.Forms.TabControl()
+        Me.lblhargaperemium = New System.Windows.Forms.Label()
+        Me.tcjangkawaktu = New System.Windows.Forms.TabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.paneldiskon = New System.Windows.Forms.Panel()
         Me.RadioButton7 = New System.Windows.Forms.RadioButton()
@@ -52,9 +52,9 @@ Partial Class Form5
         Me.RadioButton6 = New System.Windows.Forms.RadioButton()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.Splitter2 = New System.Windows.Forms.Splitter()
-        Me.RadioButton8 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.rb2minggu = New System.Windows.Forms.RadioButton()
+        Me.rb1minggu = New System.Windows.Forms.RadioButton()
+        Me.lblharga = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.lbljenispembayaran = New System.Windows.Forms.Label()
@@ -64,7 +64,7 @@ Partial Class Form5
         Me.TabControl1.SuspendLayout()
         Me.panelpremium.SuspendLayout()
         Me.TabPage2.SuspendLayout()
-        Me.TabControl2.SuspendLayout()
+        Me.tcjangkawaktu.SuspendLayout()
         Me.TabPage3.SuspendLayout()
         Me.paneldiskon.SuspendLayout()
         Me.TabPage4.SuspendLayout()
@@ -175,8 +175,8 @@ Partial Class Form5
         '
         'panelpremium
         '
-        Me.panelpremium.Controls.Add(Me.RadioButton2)
-        Me.panelpremium.Controls.Add(Me.RadioButton1)
+        Me.panelpremium.Controls.Add(Me.rbpersen2)
+        Me.panelpremium.Controls.Add(Me.rbpersen1)
         Me.panelpremium.Location = New System.Drawing.Point(4, 22)
         Me.panelpremium.Name = "panelpremium"
         Me.panelpremium.Padding = New System.Windows.Forms.Padding(3)
@@ -185,27 +185,27 @@ Partial Class Form5
         Me.panelpremium.Text = "Discount"
         Me.panelpremium.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'rbpersen2
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(16, 38)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(45, 17)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "20%"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.rbpersen2.AutoSize = True
+        Me.rbpersen2.Location = New System.Drawing.Point(16, 38)
+        Me.rbpersen2.Name = "rbpersen2"
+        Me.rbpersen2.Size = New System.Drawing.Size(45, 17)
+        Me.rbpersen2.TabIndex = 1
+        Me.rbpersen2.TabStop = True
+        Me.rbpersen2.Text = "20%"
+        Me.rbpersen2.UseVisualStyleBackColor = True
         '
-        'RadioButton1
+        'rbpersen1
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(16, 6)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(45, 17)
-        Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "10%"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.rbpersen1.AutoSize = True
+        Me.rbpersen1.Location = New System.Drawing.Point(16, 6)
+        Me.rbpersen1.Name = "rbpersen1"
+        Me.rbpersen1.Size = New System.Drawing.Size(45, 17)
+        Me.rbpersen1.TabIndex = 0
+        Me.rbpersen1.TabStop = True
+        Me.rbpersen1.Text = "10%"
+        Me.rbpersen1.UseVisualStyleBackColor = True
         '
         'TabPage2
         '
@@ -268,24 +268,24 @@ Partial Class Form5
         Me.lblPremium.TabIndex = 3
         Me.lblPremium.Text = "Premium"
         '
-        'Label1
+        'lblhargaperemium
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(86, 22)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(49, 13)
-        Me.Label1.TabIndex = 37
-        Me.Label1.Text = "1000000"
+        Me.lblhargaperemium.AutoSize = True
+        Me.lblhargaperemium.Location = New System.Drawing.Point(86, 22)
+        Me.lblhargaperemium.Name = "lblhargaperemium"
+        Me.lblhargaperemium.Size = New System.Drawing.Size(49, 13)
+        Me.lblhargaperemium.TabIndex = 37
+        Me.lblhargaperemium.Text = "1000000"
         '
-        'TabControl2
+        'tcjangkawaktu
         '
-        Me.TabControl2.Controls.Add(Me.TabPage3)
-        Me.TabControl2.Controls.Add(Me.TabPage4)
-        Me.TabControl2.Location = New System.Drawing.Point(12, 48)
-        Me.TabControl2.Name = "TabControl2"
-        Me.TabControl2.SelectedIndex = 0
-        Me.TabControl2.Size = New System.Drawing.Size(148, 100)
-        Me.TabControl2.TabIndex = 39
+        Me.tcjangkawaktu.Controls.Add(Me.TabPage3)
+        Me.tcjangkawaktu.Controls.Add(Me.TabPage4)
+        Me.tcjangkawaktu.Location = New System.Drawing.Point(12, 48)
+        Me.tcjangkawaktu.Name = "tcjangkawaktu"
+        Me.tcjangkawaktu.SelectedIndex = 0
+        Me.tcjangkawaktu.Size = New System.Drawing.Size(148, 100)
+        Me.tcjangkawaktu.TabIndex = 39
         '
         'TabPage3
         '
@@ -356,8 +356,8 @@ Partial Class Form5
         'TabPage4
         '
         Me.TabPage4.Controls.Add(Me.Splitter2)
-        Me.TabPage4.Controls.Add(Me.RadioButton8)
-        Me.TabPage4.Controls.Add(Me.RadioButton9)
+        Me.TabPage4.Controls.Add(Me.rb2minggu)
+        Me.TabPage4.Controls.Add(Me.rb1minggu)
         Me.TabPage4.Location = New System.Drawing.Point(4, 22)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
@@ -374,41 +374,41 @@ Partial Class Form5
         Me.Splitter2.TabIndex = 2
         Me.Splitter2.TabStop = False
         '
-        'RadioButton8
+        'rb2minggu
         '
-        Me.RadioButton8.AutoSize = True
-        Me.RadioButton8.Location = New System.Drawing.Point(6, 39)
-        Me.RadioButton8.Name = "RadioButton8"
-        Me.RadioButton8.Size = New System.Drawing.Size(66, 17)
-        Me.RadioButton8.TabIndex = 1
-        Me.RadioButton8.TabStop = True
-        Me.RadioButton8.Text = "2Minggu"
-        Me.RadioButton8.UseVisualStyleBackColor = True
+        Me.rb2minggu.AutoSize = True
+        Me.rb2minggu.Location = New System.Drawing.Point(6, 39)
+        Me.rb2minggu.Name = "rb2minggu"
+        Me.rb2minggu.Size = New System.Drawing.Size(66, 17)
+        Me.rb2minggu.TabIndex = 1
+        Me.rb2minggu.TabStop = True
+        Me.rb2minggu.Text = "2Minggu"
+        Me.rb2minggu.UseVisualStyleBackColor = True
         '
-        'RadioButton9
+        'rb1minggu
         '
-        Me.RadioButton9.AutoSize = True
-        Me.RadioButton9.Location = New System.Drawing.Point(6, 4)
-        Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(66, 17)
-        Me.RadioButton9.TabIndex = 0
-        Me.RadioButton9.TabStop = True
-        Me.RadioButton9.Text = "1Minggu"
-        Me.RadioButton9.UseVisualStyleBackColor = True
+        Me.rb1minggu.AutoSize = True
+        Me.rb1minggu.Location = New System.Drawing.Point(6, 4)
+        Me.rb1minggu.Name = "rb1minggu"
+        Me.rb1minggu.Size = New System.Drawing.Size(66, 17)
+        Me.rb1minggu.TabIndex = 0
+        Me.rb1minggu.TabStop = True
+        Me.rb1minggu.Text = "1Minggu"
+        Me.rb1minggu.UseVisualStyleBackColor = True
         '
-        'Label4
+        'lblharga
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(81, 25)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(49, 13)
-        Me.Label4.TabIndex = 40
-        Me.Label4.Text = "1500000"
+        Me.lblharga.AutoSize = True
+        Me.lblharga.Location = New System.Drawing.Point(81, 25)
+        Me.lblharga.Name = "lblharga"
+        Me.lblharga.Size = New System.Drawing.Size(49, 13)
+        Me.lblharga.TabIndex = 40
+        Me.lblharga.Text = "1500000"
         '
         'Panel2
         '
         Me.Panel2.Controls.Add(Me.TabControl1)
-        Me.Panel2.Controls.Add(Me.Label1)
+        Me.Panel2.Controls.Add(Me.lblhargaperemium)
         Me.Panel2.Controls.Add(Me.lblPremium)
         Me.Panel2.Location = New System.Drawing.Point(12, 88)
         Me.Panel2.Name = "Panel2"
@@ -418,8 +418,8 @@ Partial Class Form5
         'Panel3
         '
         Me.Panel3.Controls.Add(Me.lblEkslusive)
-        Me.Panel3.Controls.Add(Me.Label4)
-        Me.Panel3.Controls.Add(Me.TabControl2)
+        Me.Panel3.Controls.Add(Me.lblharga)
+        Me.Panel3.Controls.Add(Me.tcjangkawaktu)
         Me.Panel3.Location = New System.Drawing.Point(12, 247)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(179, 155)
@@ -481,7 +481,7 @@ Partial Class Form5
         Me.panelpremium.PerformLayout()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
-        Me.TabControl2.ResumeLayout(False)
+        Me.tcjangkawaktu.ResumeLayout(False)
         Me.TabPage3.ResumeLayout(False)
         Me.TabPage3.PerformLayout()
         Me.paneldiskon.ResumeLayout(False)
@@ -507,24 +507,24 @@ Partial Class Form5
     Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
     Friend WithEvents panelpremium As System.Windows.Forms.TabPage
     Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
-    Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
+    Friend WithEvents rbpersen2 As System.Windows.Forms.RadioButton
+    Friend WithEvents rbpersen1 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton4 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
     Friend WithEvents txttotalPembayaran As System.Windows.Forms.TextBox
     Friend WithEvents Splitter1 As System.Windows.Forms.Splitter
     Friend WithEvents lblEkslusive As System.Windows.Forms.Label
     Friend WithEvents lblPremium As System.Windows.Forms.Label
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents TabControl2 As System.Windows.Forms.TabControl
+    Friend WithEvents lblhargaperemium As System.Windows.Forms.Label
+    Friend WithEvents tcjangkawaktu As System.Windows.Forms.TabControl
     Friend WithEvents TabPage3 As System.Windows.Forms.TabPage
     Friend WithEvents RadioButton5 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton6 As System.Windows.Forms.RadioButton
     Friend WithEvents TabPage4 As System.Windows.Forms.TabPage
     Friend WithEvents Splitter2 As System.Windows.Forms.Splitter
-    Friend WithEvents RadioButton8 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton9 As System.Windows.Forms.RadioButton
-    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents rb2minggu As System.Windows.Forms.RadioButton
+    Friend WithEvents rb1minggu As System.Windows.Forms.RadioButton
+    Friend WithEvents lblharga As System.Windows.Forms.Label
     Friend WithEvents paneldiskon As System.Windows.Forms.Panel
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents Panel3 As System.Windows.Forms.Panel

@@ -16,20 +16,20 @@
     Dim a, b As Double
 
 
-    Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton1.CheckedChanged
-        If RadioButton1.Checked = True Then
+    Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles rbpersen1.CheckedChanged
+        If rbpersen1.Checked = True Then
             a = 0.1
-            txttotalPembayaran.Text = Label1.Text * a
+            txttotalPembayaran.Text = lblhargaperemium.Text * a
 
         End If
     End Sub
 
 
 
-    Private Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton2.CheckedChanged
-        If RadioButton2.Checked = True Then
+    Private Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles rbpersen2.CheckedChanged
+        If rbpersen2.Checked = True Then
             a = 0.2
-            txttotalPembayaran.Text = Label1.Text * a
+            txttotalPembayaran.Text = lblhargaperemium.Text * a
         End If
     End Sub
 
@@ -38,7 +38,7 @@
     Private Sub RadioButton10_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton10.CheckedChanged
         If RadioButton10.Checked = True Then
             b = 0.1
-            txttotalPembayaran.Text = Label4.Text * b
+            txttotalPembayaran.Text = lblharga.Text * b
 
         End If
     End Sub
@@ -46,7 +46,7 @@
     Private Sub RadioButton7_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton7.CheckedChanged
         If RadioButton7.Checked = True Then
             b = 0.2
-            txttotalPembayaran.Text = Label4.Text * b
+            txttotalPembayaran.Text = lblharga.Text * b
         End If
     End Sub
 

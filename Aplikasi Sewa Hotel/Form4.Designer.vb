@@ -31,18 +31,18 @@ Partial Class FormPemesanan
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.cbKartu = New System.Windows.Forms.ComboBox()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.cbjumlahkamar = New System.Windows.Forms.ComboBox()
+        Me.txttanggalcek = New System.Windows.Forms.TextBox()
+        Me.rbkeredit = New System.Windows.Forms.RadioButton()
+        Me.rbtunai = New System.Windows.Forms.RadioButton()
+        Me.rbperempuan = New System.Windows.Forms.RadioButton()
+        Me.rblaki = New System.Windows.Forms.RadioButton()
+        Me.txtnotelpon = New System.Windows.Forms.TextBox()
+        Me.cbtipekamar = New System.Windows.Forms.ComboBox()
+        Me.txttanggalcekoout = New System.Windows.Forms.TextBox()
+        Me.txtNoidentitas = New System.Windows.Forms.TextBox()
         Me.txtnama = New System.Windows.Forms.TextBox()
         Me.lbltamu = New System.Windows.Forms.Label()
         Me.lbljumlahkamar = New System.Windows.Forms.Label()
@@ -98,18 +98,18 @@ Partial Class FormPemesanan
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(8, Byte), Integer))
         Me.GroupBox1.Controls.Add(Me.Panel1)
-        Me.GroupBox1.Controls.Add(Me.ComboBox1)
+        Me.GroupBox1.Controls.Add(Me.cbKartu)
         Me.GroupBox1.Controls.Add(Me.DateTimePicker1)
-        Me.GroupBox1.Controls.Add(Me.ComboBox4)
-        Me.GroupBox1.Controls.Add(Me.TextBox5)
-        Me.GroupBox1.Controls.Add(Me.RadioButton4)
-        Me.GroupBox1.Controls.Add(Me.RadioButton3)
-        Me.GroupBox1.Controls.Add(Me.RadioButton2)
-        Me.GroupBox1.Controls.Add(Me.RadioButton1)
-        Me.GroupBox1.Controls.Add(Me.TextBox4)
-        Me.GroupBox1.Controls.Add(Me.ComboBox2)
-        Me.GroupBox1.Controls.Add(Me.TextBox3)
-        Me.GroupBox1.Controls.Add(Me.TextBox2)
+        Me.GroupBox1.Controls.Add(Me.cbjumlahkamar)
+        Me.GroupBox1.Controls.Add(Me.txttanggalcek)
+        Me.GroupBox1.Controls.Add(Me.rbkeredit)
+        Me.GroupBox1.Controls.Add(Me.rbtunai)
+        Me.GroupBox1.Controls.Add(Me.rbperempuan)
+        Me.GroupBox1.Controls.Add(Me.rblaki)
+        Me.GroupBox1.Controls.Add(Me.txtnotelpon)
+        Me.GroupBox1.Controls.Add(Me.cbtipekamar)
+        Me.GroupBox1.Controls.Add(Me.txttanggalcekoout)
+        Me.GroupBox1.Controls.Add(Me.txtNoidentitas)
         Me.GroupBox1.Controls.Add(Me.txtnama)
         Me.GroupBox1.Controls.Add(Me.lbltamu)
         Me.GroupBox1.Controls.Add(Me.lbljumlahkamar)
@@ -174,15 +174,15 @@ Partial Class FormPemesanan
         Me.CheckBox1.Text = "1"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
-        'ComboBox1
+        'cbKartu
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"KTP", "SIM"})
-        Me.ComboBox1.Location = New System.Drawing.Point(248, 66)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(57, 21)
-        Me.ComboBox1.TabIndex = 2
+        Me.cbKartu.FormattingEnabled = True
+        Me.cbKartu.Items.AddRange(New Object() {"KTP", "SIM"})
+        Me.cbKartu.Location = New System.Drawing.Point(248, 66)
+        Me.cbKartu.Margin = New System.Windows.Forms.Padding(4)
+        Me.cbKartu.Name = "cbKartu"
+        Me.cbKartu.Size = New System.Drawing.Size(57, 21)
+        Me.cbKartu.TabIndex = 2
         '
         'DateTimePicker1
         '
@@ -191,109 +191,109 @@ Partial Class FormPemesanan
         Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
         Me.DateTimePicker1.TabIndex = 4
         '
-        'ComboBox4
+        'cbjumlahkamar
         '
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
-        Me.ComboBox4.Location = New System.Drawing.Point(248, 241)
-        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(57, 21)
-        Me.ComboBox4.TabIndex = 8
+        Me.cbjumlahkamar.FormattingEnabled = True
+        Me.cbjumlahkamar.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
+        Me.cbjumlahkamar.Location = New System.Drawing.Point(248, 241)
+        Me.cbjumlahkamar.Margin = New System.Windows.Forms.Padding(4)
+        Me.cbjumlahkamar.Name = "cbjumlahkamar"
+        Me.cbjumlahkamar.Size = New System.Drawing.Size(57, 21)
+        Me.cbjumlahkamar.TabIndex = 8
         '
-        'TextBox5
+        'txttanggalcek
         '
-        Me.TextBox5.Location = New System.Drawing.Point(248, 352)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(116, 20)
-        Me.TextBox5.TabIndex = 25
+        Me.txttanggalcek.Location = New System.Drawing.Point(248, 352)
+        Me.txttanggalcek.Margin = New System.Windows.Forms.Padding(4)
+        Me.txttanggalcek.Name = "txttanggalcek"
+        Me.txttanggalcek.Size = New System.Drawing.Size(116, 20)
+        Me.txttanggalcek.TabIndex = 25
         '
-        'RadioButton4
+        'rbkeredit
         '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.RadioButton4.Location = New System.Drawing.Point(392, 428)
-        Me.RadioButton4.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(52, 17)
-        Me.RadioButton4.TabIndex = 24
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "Kredit"
-        Me.RadioButton4.UseVisualStyleBackColor = True
+        Me.rbkeredit.AutoSize = True
+        Me.rbkeredit.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.rbkeredit.Location = New System.Drawing.Point(392, 428)
+        Me.rbkeredit.Margin = New System.Windows.Forms.Padding(4)
+        Me.rbkeredit.Name = "rbkeredit"
+        Me.rbkeredit.Size = New System.Drawing.Size(52, 17)
+        Me.rbkeredit.TabIndex = 24
+        Me.rbkeredit.TabStop = True
+        Me.rbkeredit.Text = "Kredit"
+        Me.rbkeredit.UseVisualStyleBackColor = True
         '
-        'RadioButton3
+        'rbtunai
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.RadioButton3.Location = New System.Drawing.Point(248, 428)
-        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(52, 17)
-        Me.RadioButton3.TabIndex = 23
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "Tunai"
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.rbtunai.AutoSize = True
+        Me.rbtunai.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.rbtunai.Location = New System.Drawing.Point(248, 428)
+        Me.rbtunai.Margin = New System.Windows.Forms.Padding(4)
+        Me.rbtunai.Name = "rbtunai"
+        Me.rbtunai.Size = New System.Drawing.Size(52, 17)
+        Me.rbtunai.TabIndex = 23
+        Me.rbtunai.TabStop = True
+        Me.rbtunai.Text = "Tunai"
+        Me.rbtunai.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'rbperempuan
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.RadioButton2.Location = New System.Drawing.Point(372, 170)
-        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(79, 17)
-        Me.RadioButton2.TabIndex = 6
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Perempuan"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.rbperempuan.AutoSize = True
+        Me.rbperempuan.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.rbperempuan.Location = New System.Drawing.Point(372, 170)
+        Me.rbperempuan.Margin = New System.Windows.Forms.Padding(4)
+        Me.rbperempuan.Name = "rbperempuan"
+        Me.rbperempuan.Size = New System.Drawing.Size(79, 17)
+        Me.rbperempuan.TabIndex = 6
+        Me.rbperempuan.TabStop = True
+        Me.rbperempuan.Text = "Perempuan"
+        Me.rbperempuan.UseVisualStyleBackColor = True
         '
-        'RadioButton1
+        'rblaki
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.RadioButton1.Location = New System.Drawing.Point(248, 172)
-        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(64, 17)
-        Me.RadioButton1.TabIndex = 5
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Laki-laki"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.rblaki.AutoSize = True
+        Me.rblaki.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.rblaki.Location = New System.Drawing.Point(248, 172)
+        Me.rblaki.Margin = New System.Windows.Forms.Padding(4)
+        Me.rblaki.Name = "rblaki"
+        Me.rblaki.Size = New System.Drawing.Size(64, 17)
+        Me.rblaki.TabIndex = 5
+        Me.rblaki.TabStop = True
+        Me.rblaki.Text = "Laki-laki"
+        Me.rblaki.UseVisualStyleBackColor = True
         '
-        'TextBox4
+        'txtnotelpon
         '
-        Me.TextBox4.Location = New System.Drawing.Point(248, 208)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(217, 20)
-        Me.TextBox4.TabIndex = 7
+        Me.txtnotelpon.Location = New System.Drawing.Point(248, 208)
+        Me.txtnotelpon.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtnotelpon.Name = "txtnotelpon"
+        Me.txtnotelpon.Size = New System.Drawing.Size(217, 20)
+        Me.txtnotelpon.TabIndex = 7
         '
-        'ComboBox2
+        'cbtipekamar
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"EKONOMI", "PREMIUM", "EKSLUSIVE"})
-        Me.ComboBox2.Location = New System.Drawing.Point(248, 313)
-        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(279, 21)
-        Me.ComboBox2.TabIndex = 12
+        Me.cbtipekamar.FormattingEnabled = True
+        Me.cbtipekamar.Items.AddRange(New Object() {"EKONOMI", "PREMIUM", "EKSLUSIVE"})
+        Me.cbtipekamar.Location = New System.Drawing.Point(248, 313)
+        Me.cbtipekamar.Margin = New System.Windows.Forms.Padding(4)
+        Me.cbtipekamar.Name = "cbtipekamar"
+        Me.cbtipekamar.Size = New System.Drawing.Size(279, 21)
+        Me.cbtipekamar.TabIndex = 12
         '
-        'TextBox3
+        'txttanggalcekoout
         '
-        Me.TextBox3.Location = New System.Drawing.Point(248, 388)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(116, 20)
-        Me.TextBox3.TabIndex = 13
+        Me.txttanggalcekoout.Location = New System.Drawing.Point(248, 388)
+        Me.txttanggalcekoout.Margin = New System.Windows.Forms.Padding(4)
+        Me.txttanggalcekoout.Name = "txttanggalcekoout"
+        Me.txttanggalcekoout.Size = New System.Drawing.Size(116, 20)
+        Me.txttanggalcekoout.TabIndex = 13
         '
-        'TextBox2
+        'txtNoidentitas
         '
-        Me.TextBox2.Location = New System.Drawing.Point(248, 98)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(288, 20)
-        Me.TextBox2.TabIndex = 3
+        Me.txtNoidentitas.Location = New System.Drawing.Point(248, 98)
+        Me.txtNoidentitas.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtNoidentitas.Name = "txtNoidentitas"
+        Me.txtNoidentitas.Size = New System.Drawing.Size(288, 20)
+        Me.txtNoidentitas.TabIndex = 3
         '
         'txtnama
         '
@@ -448,16 +448,16 @@ Partial Class FormPemesanan
     Friend WithEvents lblpesan As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
-    Friend WithEvents ComboBox4 As System.Windows.Forms.ComboBox
-    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
-    Friend WithEvents RadioButton4 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
-    Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
-    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents cbjumlahkamar As System.Windows.Forms.ComboBox
+    Friend WithEvents txttanggalcek As System.Windows.Forms.TextBox
+    Friend WithEvents rbkeredit As System.Windows.Forms.RadioButton
+    Friend WithEvents rbtunai As System.Windows.Forms.RadioButton
+    Friend WithEvents rbperempuan As System.Windows.Forms.RadioButton
+    Friend WithEvents rblaki As System.Windows.Forms.RadioButton
+    Friend WithEvents txtnotelpon As System.Windows.Forms.TextBox
+    Friend WithEvents cbtipekamar As System.Windows.Forms.ComboBox
+    Friend WithEvents txttanggalcekoout As System.Windows.Forms.TextBox
+    Friend WithEvents txtNoidentitas As System.Windows.Forms.TextBox
     Friend WithEvents txtnama As System.Windows.Forms.TextBox
     Friend WithEvents lbltamu As System.Windows.Forms.Label
     Friend WithEvents lbljumlahkamar As System.Windows.Forms.Label
@@ -472,7 +472,7 @@ Partial Class FormPemesanan
     Friend WithEvents lblkartu As System.Windows.Forms.Label
     Friend WithEvents lblpemesanan As System.Windows.Forms.Label
     Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents cbKartu As System.Windows.Forms.ComboBox
     Friend WithEvents CheckBox3 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
