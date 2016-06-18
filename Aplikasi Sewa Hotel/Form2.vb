@@ -3,6 +3,7 @@
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         FormUtama.Show()
         Me.Close()
+        Text = "Kembali ke Form Utama"
     End Sub
 
 
@@ -31,8 +32,12 @@
         Me.Close()
     End Sub
 
-    Private Sub linkkembali_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles linkkembali.LinkClicked
+    Private Sub linkkembali_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
         FormUtama.Show()
         Me.Close()
+    End Sub
+
+    Private Sub Label19_Click(sender As Object, e As EventArgs) Handles Label19.Click
+
     End Sub
 End Class

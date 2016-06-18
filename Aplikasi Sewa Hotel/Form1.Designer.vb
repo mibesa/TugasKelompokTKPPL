@@ -23,7 +23,7 @@ Partial Class FormUtama
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormUtama))
-        Me.pictureUtama = New System.Windows.Forms.PictureBox()
+        Me.PictureUtama = New System.Windows.Forms.PictureBox()
         Me.gbHotel = New System.Windows.Forms.GroupBox()
         Me.Picturelayanan3 = New System.Windows.Forms.PictureBox()
         Me.Picturelayanan2 = New System.Windows.Forms.PictureBox()
@@ -41,7 +41,7 @@ Partial Class FormUtama
         Me.btnPemesanan = New System.Windows.Forms.Button()
         Me.btnHalamanAwal = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
-        CType(Me.pictureUtama, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureUtama, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbHotel.SuspendLayout()
         CType(Me.Picturelayanan3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Picturelayanan2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -51,15 +51,15 @@ Partial Class FormUtama
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'pictureUtama
+        'PictureUtama
         '
-        Me.pictureUtama.Image = Global.imk_2.My.Resources.Resources.kamar_tidur_mewah_21
-        Me.pictureUtama.Location = New System.Drawing.Point(47, 53)
-        Me.pictureUtama.Name = "pictureUtama"
-        Me.pictureUtama.Size = New System.Drawing.Size(643, 205)
-        Me.pictureUtama.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.pictureUtama.TabIndex = 21
-        Me.pictureUtama.TabStop = False
+        Me.PictureUtama.Image = Global.imk_2.My.Resources.Resources.kamar_tidur_mewah_21
+        Me.PictureUtama.Location = New System.Drawing.Point(47, 53)
+        Me.PictureUtama.Name = "PictureUtama"
+        Me.PictureUtama.Size = New System.Drawing.Size(643, 205)
+        Me.PictureUtama.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureUtama.TabIndex = 21
+        Me.PictureUtama.TabStop = False
         '
         'gbHotel
         '
@@ -249,7 +249,7 @@ Partial Class FormUtama
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.imk_2.My.Resources.Resources.walking_black_backgrounds_wallpapers
         Me.ClientSize = New System.Drawing.Size(772, 609)
-        Me.Controls.Add(Me.pictureUtama)
+        Me.Controls.Add(Me.PictureUtama)
         Me.Controls.Add(Me.gbHotel)
         Me.Controls.Add(Me.gblokasi)
         Me.Controls.Add(Me.gbtempat)
@@ -260,7 +260,7 @@ Partial Class FormUtama
         Me.Name = "FormUtama"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "FormUtama"
-        CType(Me.pictureUtama, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureUtama, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gbHotel.ResumeLayout(False)
         CType(Me.Picturelayanan3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Picturelayanan2, System.ComponentModel.ISupportInitialize).EndInit()
@@ -271,7 +271,7 @@ Partial Class FormUtama
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents pictureUtama As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureUtama As System.Windows.Forms.PictureBox
     Friend WithEvents gbHotel As System.Windows.Forms.GroupBox
     Friend WithEvents Picturelayanan3 As System.Windows.Forms.PictureBox
     Friend WithEvents Picturelayanan2 As System.Windows.Forms.PictureBox

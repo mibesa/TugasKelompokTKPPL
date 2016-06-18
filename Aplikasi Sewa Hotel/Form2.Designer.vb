@@ -48,7 +48,6 @@ Partial Class FormJenisKamar
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.linkkembali = New System.Windows.Forms.LinkLabel()
         Me.gbkamarspesial.SuspendLayout()
         CType(Me.picturekmrspesial, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbkamarpremium.SuspendLayout()
@@ -302,23 +301,12 @@ Partial Class FormJenisKamar
         Me.Label7.TabIndex = 9
         Me.Label7.Text = "Lantai                       3"
         '
-        'linkkembali
-        '
-        Me.linkkembali.AutoSize = True
-        Me.linkkembali.Location = New System.Drawing.Point(573, 524)
-        Me.linkkembali.Name = "linkkembali"
-        Me.linkkembali.Size = New System.Drawing.Size(44, 13)
-        Me.linkkembali.TabIndex = 30
-        Me.linkkembali.TabStop = True
-        Me.linkkembali.Text = "Kembali"
-        '
         'FormJenisKamar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.imk_2.My.Resources.Resources.cool_black_and_white_designs_3387_hd_wallpapers_640x480
         Me.ClientSize = New System.Drawing.Size(685, 546)
-        Me.Controls.Add(Me.linkkembali)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.lblcomment)
@@ -339,7 +327,6 @@ Partial Class FormJenisKamar
         Me.gbkamarekonomi.PerformLayout()
         CType(Me.picturekmrekonomi, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Button4 As System.Windows.Forms.Button
@@ -367,5 +354,4 @@ Partial Class FormJenisKamar
     Friend WithEvents lblpilih2 As System.Windows.Forms.LinkLabel
     Friend WithEvents lblpilih3 As System.Windows.Forms.LinkLabel
     Friend WithEvents lblpilih1 As System.Windows.Forms.LinkLabel
-    Friend WithEvents linkkembali As System.Windows.Forms.LinkLabel
 End Class
